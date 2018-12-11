@@ -1,6 +1,6 @@
 @import "general";
 
-html, body, #root, .content
+html, body, #interactions, .content
 {
     @include default;
     @extend #HIDDEN;
@@ -8,8 +8,6 @@ html, body, #root, .content
 
 body
 {
-    background: #f00;
-
     p, label, span, a, li
     {
         @if (lightness($silver) < 30) {
@@ -48,5 +46,56 @@ body
     {
         @include default;
         padding-top: 50px;
+    }
+
+    #interactions
+    {
+        background: lighten($light, 50%);
+
+        .left-sb, .settings, .sidebar, .content, .aside
+        { height: $full-height; }
+
+        .left-sb .sidebar,
+        .content .aside
+        {
+            @extend #RIGHT, #NO-PADDING;
+            background: $light-silver;
+        }
+
+        .left-sb
+        {
+            @extend #ABSOLUTE;
+            z-index: 1;
+
+            .settings
+            {
+                @extend #LEFT, #CENTER;
+                width: 62px;    
+                padding: 20px 0;
+                border-right: $silver 1px solid;
+                background: $light;
+            }
+    
+            .sidebar
+            {
+                width: 350px;
+                left: 62px;
+                border-right: $dark-silver 1px solid;
+            }
+        }
+        
+        .content
+        {
+            @extend #ABSOLUTE, #NO-PADDING;
+            width: $full-width;
+            padding-left: 412px;
+            background: $dark;
+
+            .aside
+            {
+                width: 300px;
+                border-left: $dark-silver 1px solid;
+            }
+        }
     }
 }

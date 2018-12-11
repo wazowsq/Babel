@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .content {
   position: absolute;
 }
 
@@ -10379,11 +10379,12 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left {
+#LEFT, body .pull-left, body #interactions .left-sb .settings {
   float: left;
 }
 
-#RIGHT, body .pull-right {
+#RIGHT, body .pull-right, body #interactions .left-sb .sidebar,
+body #interactions .content .aside {
   float: right;
 }
 
@@ -10409,13 +10410,14 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body .main-home {
+*:before, #interactions, .content, body ul, body .main-home {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #root, .content, body ul, body .main-home {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar,
+body #interactions .content .aside, body #interactions .content {
   padding: 0;
 }
 
@@ -10463,7 +10465,7 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER {
+#CENTER, body #interactions .left-sb .settings {
   text-align: center;
 }
 
@@ -10483,7 +10485,7 @@ template {
   overflow: auto;
 }
 
-#HIDDEN, html, body, #root, .content {
+#HIDDEN, html, body, #interactions, .content {
   overflow: hidden;
 }
 
@@ -10493,6 +10495,10 @@ template {
 
 #SPACING {
   letter-spacing: 2px;
+}
+
+#CENTER, body #interactions .left-sb .settings {
+  text-align: center;
 }
 
 /* Mixins
@@ -10645,21 +10651,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   box-sizing: border-box;
 }
 
-html, body, #root, .content {
+html, body, #interactions, .content {
   width: 100%;
   height: 100%;
 }
 
-body {
-  background: #f00;
-}
-
 body p, body label, body span, body a, body li {
-  color: #A5A5A5;
+  color: #EEEEEE;
 }
 
 body input.form-control {
-  border-color: #e5e5e5;
+  border-color: white;
   font-size: 0.87rem;
   font-family: senticosansCondThin, arial;
 }
@@ -10673,4 +10675,45 @@ body .main-home {
   width: 100%;
   height: 100%;
   padding-top: 50px;
+}
+
+body #interactions {
+  background: white;
+}
+
+body #interactions .left-sb, body #interactions .settings, body #interactions .sidebar, body #interactions .content, body #interactions .aside {
+  height: 100%;
+}
+
+body #interactions .left-sb .sidebar,
+body #interactions .content .aside {
+  background: #F8F8F8;
+}
+
+body #interactions .left-sb {
+  z-index: 1;
+}
+
+body #interactions .left-sb .settings {
+  width: 62px;
+  padding: 20px 0;
+  border-right: #EEEEEE 1px solid;
+  background: #FBFBFB;
+}
+
+body #interactions .left-sb .sidebar {
+  width: 350px;
+  left: 62px;
+  border-right: #DEDEDE 1px solid;
+}
+
+body #interactions .content {
+  width: 100%;
+  padding-left: 412px;
+  background: #E4E4E4;
+}
+
+body #interactions .content .aside {
+  width: 300px;
+  border-left: #DEDEDE 1px solid;
 }
