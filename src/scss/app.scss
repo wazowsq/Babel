@@ -8,6 +8,8 @@ html, body, #root, .content
 
 body
 {
+    background: #000;
+    
     p, label, span, a, li
     {
         @if (lightness($silver) < 30) {
