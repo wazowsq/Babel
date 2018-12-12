@@ -10367,11 +10367,11 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE, body #interactions .left-sb .sidebar {
+#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .content, body #interactions .teto {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .content, body #interactions .teto {
   position: absolute;
 }
 
@@ -10379,11 +10379,11 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .teto h3.title, body #interactions .teto .search {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .teto h3.title, body #interactions .teto .search {
   float: left;
 }
 
-#RIGHT, body .pull-right, body #interactions .sb-default {
+#RIGHT, body .pull-right, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont h5 span.time {
   float: right;
 }
 
@@ -10399,7 +10399,7 @@ template {
   display: none;
 }
 
-#SHOW {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif {
   display: block;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .content {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .content {
   padding: 0;
 }
 
@@ -10463,11 +10463,11 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .teto h3.title {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title {
   text-align: center;
 }
 
-#POINTER, body #interactions .left-sb .settings li {
+#POINTER, body #interactions .left-sb .settings li, body #interactions .left-sb .sidebar ul > li {
   cursor: pointer;
 }
 
@@ -10479,7 +10479,7 @@ template {
   border-radius: 50%;
 }
 
-#OVERFLOW {
+#OVERFLOW, body #interactions .left-sb .sidebar ul {
   overflow: auto;
 }
 
@@ -10495,7 +10495,7 @@ template {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .teto h3.title {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title {
   text-align: center;
 }
 
@@ -10594,6 +10594,99 @@ body #interactions .left-sb .sidebar {
   width: 350px;
   border-right: #DEDEDE 1px solid;
   padding-top: 105px;
+}
+
+body #interactions .left-sb .sidebar ul {
+  height: 100%;
+}
+
+body #interactions .left-sb .sidebar ul > li {
+  padding: 20px 10px;
+  width: 100%;
+  border-left: solid 2px #F8F8F8;
+}
+
+body #interactions .left-sb .sidebar ul > li .circle {
+  height: 40px;
+  width: 40px;
+  background: #EB3067;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 10px;
+}
+
+body #interactions .left-sb .sidebar ul > li .notif {
+  background: #28a745;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: #FBFBFB;
+  font-size: 10px;
+  z-index: 1;
+  line-height: 15px;
+  bottom: 0;
+  right: 0;
+  margin: 0 10px 5px 0;
+}
+
+body #interactions .left-sb .sidebar ul > li .inital {
+  background: #515067;
+}
+
+body #interactions .left-sb .sidebar ul > li .txt {
+  font-size: 12px;
+  font-weight: normal;
+  color: #515067;
+  line-height: 40px;
+}
+
+body #interactions .left-sb .sidebar li.cont:hover,
+body #interactions .left-sb .sidebar li.active {
+  transition: .3s;
+  background: #EEEEEE;
+  border-left: solid 2px #EB3067;
+}
+
+body #interactions .left-sb .sidebar li.cont:hover .circle,
+body #interactions .left-sb .sidebar li.active .circle {
+  background: #213847;
+}
+
+body #interactions .left-sb .sidebar li.cont .circle {
+  margin-top: 6px;
+}
+
+body #interactions .left-sb .sidebar li.cont h5, body #interactions .left-sb .sidebar li.cont p {
+  color: #999999;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+body #interactions .left-sb .sidebar li.cont h5 strong, body #interactions .left-sb .sidebar li.cont p strong {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+body #interactions .left-sb .sidebar li.cont h5 .danger, body #interactions .left-sb .sidebar li.cont p .danger {
+  color: #EB3067;
+  font-size: 11px;
+}
+
+body #interactions .left-sb .sidebar li.cont h5 {
+  color: #666666;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+body #interactions .left-sb .sidebar li.cont h5 span.time {
+  color: #999999;
+  font-size: 11px;
+}
+
+body #interactions .left-sb .sidebar li.cont p.channel {
+  color: #515067;
 }
 
 body #interactions .content {

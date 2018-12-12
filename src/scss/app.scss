@@ -95,6 +95,114 @@ body
                 width: 350px;
                 border-right: $dark-silver 1px solid;
                 padding-top: 105px;
+
+                ul
+                {
+                    @extend #OVERFLOW;
+                    height: $full-height;
+                }
+
+                ul > li
+                {
+                    @extend #LEFT, #POINTER, #RELATIVE;
+                    padding: 20px 10px;
+                    width: $full-width;
+                    border-left: solid 2px $light-silver;
+
+                    .circle
+                    {
+                        @extend #LEFT, #CENTER;
+                        height: 40px;   width: 40px;
+                        background: $pink;
+                        border-radius: 50%;
+                        line-height: 40px;
+                        font-size: 14px;    font-weight: 100;
+                        margin-right: 10px;
+                    }
+
+                    .notif
+                    {
+                        @extend #SHOW, #ABSOLUTE, #CENTER;
+                        background: $green;
+                        width: 15px;    height: 15px;
+                        border-radius: 50%;
+                        color: $light;
+                        font-size: 10px;
+                        z-index: 1;
+                        line-height: 15px;
+                        bottom: 0; right: 0;
+                        margin: 0 10px 5px 0;
+                    }
+
+                    .inital
+                    { background: $purple; }
+
+                    .txt
+                    {
+                        @extend #LEFT;
+                        font-size: 12px;    font-weight: normal;
+                        color: $purple;
+                        line-height: 40px;
+                    }
+                }
+
+                li.cont:hover,
+                li.active
+                {
+                    transition: .3s;
+                    background: $silver;
+                    border-left: solid 2px $pink;
+
+                    .circle
+                    { background: $dark-purple; }
+                }
+
+                li.cont
+                {
+                    .circle
+                    { margin-top: 6px; }
+
+                    .row
+                    { @extend #NO-MARGIN; }
+                    
+                    .col-sm-12,.col-sm-11,.col-sm-10,.col-sm-9,.col-sm-8,.col-sm-7,.col-sm-6,.col-sm-5,.col-sm-4,.col-sm-3,.col-sm-2,.col-sm-1,
+                    { @extend #NO-PADDING; }
+
+                    h5, p
+                    {
+                        color: $concrete;
+                        font-size: 11px;
+                        margin-bottom: 3px;
+
+                        strong
+                        {
+                            font-weight: bold;
+                            font-size: 11px;
+                        }
+
+                        .danger
+                        {
+                            color: $danger;
+                            font-size: 11px;
+                        }
+                    }
+
+                    h5
+                    {
+                        color: $dark-concrete;
+                        font-size: 12px;    font-weight: normal;
+
+                        span.time
+                        {
+                            @extend #RIGHT;
+                            color: $concrete;
+                            font-size: 11px;
+                        }
+                    }
+
+                    p.channel
+                    { color: $purple; }
+                }
             }
         }
         
