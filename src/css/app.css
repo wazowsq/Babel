@@ -10367,11 +10367,11 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE {
+#RELATIVE, body #interactions .left-sb .sidebar {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .content {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .content, body #interactions .teto {
   position: absolute;
 }
 
@@ -10379,12 +10379,11 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .teto h3.title, body #interactions .teto .search {
   float: left;
 }
 
-#RIGHT, body .pull-right, body #interactions .left-sb .sidebar,
-body #interactions .content .aside {
+#RIGHT, body .pull-right, body #interactions .sb-default {
   float: right;
 }
 
@@ -10416,13 +10415,12 @@ body #interactions .content .aside {
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar,
-body #interactions .content .aside, body #interactions .content {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .content {
   padding: 0;
 }
 
 #FAMILY, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  font-family: senticosansRegular, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #LIGHTER {
@@ -10465,11 +10463,11 @@ body #interactions .content .aside, body #interactions .content {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings {
+#CENTER, body #interactions .left-sb .settings, body #interactions .teto h3.title {
   text-align: center;
 }
 
-#POINTER {
+#POINTER, body #interactions .left-sb .settings li {
   cursor: pointer;
 }
 
@@ -10497,135 +10495,13 @@ body #interactions .content .aside, body #interactions .content {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings {
+#CENTER, body #interactions .left-sb .settings, body #interactions .teto h3.title {
   text-align: center;
 }
 
 /* Mixins
 ----------------------------------------------------------------------- */
 /* Helpers */
-/* Fonts
------------------------------------------------------------------------ */
-@font-face {
-  font-family: senticosansBold;
-  src: url("../../dist/font/SenticoSansDT-Bold.otf");
-}
-
-@font-face {
-  font-family: senticosansBoldItalic;
-  src: url("../../dist/font/SenticoSansDT-BoldItalic.otf");
-}
-
-@font-face {
-  font-family: senticosansCondBold;
-  src: url("../../dist/font/SenticoSansDTCond-Bold.otf");
-}
-
-@font-face {
-  font-family: senticosansCondBoldIta;
-  src: url("../../dist/font/SenticoSansDTCond-BoldIta.otf");
-}
-
-@font-face {
-  font-family: senticosansCondExtBdIta;
-  src: url("../../dist/font/SenticoSansDTCond-ExtBdIta.otf");
-}
-
-@font-face {
-  font-family: senticosansCondExtraBold;
-  src: url("../../dist/font/SenticoSansDTCond-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: senticosansCondItalic;
-  src: url("../../dist/font/SenticoSansDTCond-Italic.otf");
-}
-
-@font-face {
-  font-family: senticosansCondLight;
-  src: url("../../dist/font/SenticoSansDTCond-Light.otf");
-}
-
-@font-face {
-  font-family: senticosansCondLightIta;
-  src: url("../../dist/font/SenticoSansDTCond-LightIta.otf");
-}
-
-@font-face {
-  font-family: senticosansCondMedium;
-  src: url("../../dist/font/SenticoSansDTCond-Medium.otf");
-}
-
-@font-face {
-  font-family: senticosansCondMediumIta;
-  src: url("../../dist/font/SenticoSansDTCond-MediumIta.otf");
-}
-
-@font-face {
-  font-family: senticosansCondRegular;
-  src: url("../../dist/font/SenticoSansDTCond-Regular.otf");
-}
-
-@font-face {
-  font-family: senticosansCondThin;
-  src: url("../../dist/font/SenticoSansDTCond-Thin.otf");
-}
-
-@font-face {
-  font-family: senticosansCondThinIta;
-  src: url("../../dist/font/SenticoSansDTCond-ThinIta.otf");
-}
-
-@font-face {
-  font-family: senticosansExtraBold;
-  src: url("../../dist/font/SenticoSansDT-ExtraBold.otf");
-}
-
-@font-face {
-  font-family: senticosansExtraBoldIta;
-  src: url("../../dist/font/SenticoSansDT-ExtraBoldIta.otf");
-}
-
-@font-face {
-  font-family: senticosansItalic;
-  src: url("../../dist/font/SenticoSansDT-Italic.otf");
-}
-
-@font-face {
-  font-family: senticosansLight;
-  src: url("../../dist/font/SenticoSansDT-Light.otf");
-}
-
-@font-face {
-  font-family: senticosansLightItalic;
-  src: url("../../dist/font/SenticoSansDT-LightItalic.otf");
-}
-
-@font-face {
-  font-family: senticosansMedium;
-  src: url("../../dist/font/SenticoSansDT-Medium.otf");
-}
-
-@font-face {
-  font-family: senticosansMediumItalic;
-  src: url("../../dist/font/SenticoSansDT-MediumItalic.otf");
-}
-
-@font-face {
-  font-family: senticosansRegular;
-  src: url("../../dist/font/SenticoSansDT-Regular.otf");
-}
-
-@font-face {
-  font-family: senticosansThin;
-  src: url("../../dist/font/SenticoSansDT-Thin.otf");
-}
-
-@font-face {
-  font-family: senticosansThinItalic;
-  src: url("../../dist/font/SenticoSansDT-ThinItalic.otf");
-}
-
 /* Animate
 ----------------------------------------------------------------------- */
 /* Core */
@@ -10685,8 +10561,7 @@ body #interactions .left-sb, body #interactions .settings, body #interactions .s
   height: 100%;
 }
 
-body #interactions .left-sb .sidebar,
-body #interactions .content .aside {
+body #interactions .sb-default {
   background: #F8F8F8;
 }
 
@@ -10701,10 +10576,24 @@ body #interactions .left-sb .settings {
   background: #FBFBFB;
 }
 
+body #interactions .left-sb .settings li {
+  color: #515067;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+body #interactions .left-sb .settings li:hover {
+  color: #213847;
+}
+
+body #interactions .left-sb .settings li.active {
+  color: #EB3067;
+}
+
 body #interactions .left-sb .sidebar {
   width: 350px;
-  left: 62px;
   border-right: #DEDEDE 1px solid;
+  padding-top: 105px;
 }
 
 body #interactions .content {
@@ -10716,4 +10605,38 @@ body #interactions .content {
 body #interactions .content .aside {
   width: 300px;
   border-left: #DEDEDE 1px solid;
+}
+
+body #interactions .teto {
+  width: 100%;
+  top: 0;
+}
+
+body #interactions .teto h3.title {
+  width: 100%;
+  height: 55px;
+  background: #EEEEEE;
+  line-height: 55px;
+  color: #EB3067;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+body #interactions .teto .search {
+  width: 100%;
+  height: 50px;
+  background: #E5E5E5;
+  padding: 10px;
+}
+
+body #interactions .teto .search input {
+  width: 100%;
+  height: 30px;
+  border-radius: 7px;
+  background: #FBFBFB;
+  border: solid 1px #DEDEDE;
+  font-size: 11px;
+  font-weight: normal;
+  color: #515067;
+  padding: 0 10px;
 }
