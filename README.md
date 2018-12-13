@@ -12,7 +12,7 @@
 <p align="center">
     <a href="#features">Features</a> &bull;
     <a href="#organization">Organization</a> &bull;
-    <a href="#installation">Installation</a>
+    <a href="#contribuition">Contribuition</a>
 </p>
 
 ## Features
@@ -53,68 +53,15 @@ Whatsapp Omni Plusoft/
 └── README.md
 ```
 
-
-
-## Installation
-
-For this work, we are using technologies such as [Gulp](https://gulpjs.com/), [Sass](https://sass-lang.com/), [NPM](https://www.npmjs.com/) and [React Native](http://www.reactnative.com/). If you do not know these technologies, click on the links and read about them.
-
-To work on the project, you need to perform some functions on your system and git.
-
-Configure your machine as follows:
-
-* Logue com sua conta no GIT.
-
-<h4 align="center">
-  <img src="https://image.ibb.co/cmZs7T/git_init.png" alt="Git" />
-</h4>
-
-* Acesse o projeto no link [Life Design Mongeral no Git](https://github.com/rafaeltorres89/tvt-mg-ds).
-
-<h4 align="center">
-  <img src="https://image.ibb.co/hzxR1o/git_repositorio.png" alt="Repositorio" />
-</h4>
-
-* No botão "FORK", no canto superior do seu git, clique e espere o ok da página. 
-
-<h4 align="center">
-  <img src="https://blog.da2k.com.br/uploads/2015/02/fork-repository.png" alt="Fork" />
-</h4>
-
-* Após o fork do repositório, repare que abaixo do nome do repositório é mostrado o repositório original.
-
-<h4 align="center">
-  <img src="https://blog.da2k.com.br/uploads/2015/02/forked-from.png" alt="Repositório real" />
-</h4>
-
-* Clone o respositório no botão verde acima do conteúdo. 
-
-<h4 align="center">
-  <img src="https://image.ibb.co/fDvw1o/clone.png" alt="Clone" />
-</h4>
-
-Vá ao terminal, encontre a pasta desejada e digite:
+Para clonar o projeto, utilize o seguinte comando:
 ```
-git clone https://github.com/rafaeltorres89/tvt-mg-ds.git
+git clone https://github.com/wazowsq/Babel.git
 ```
 
-* Crie uma brach para codar as features. 
-```
-git branch
-```
-A resposta deve ser: 
-```
-* master
-```
-Por convenção, o git utiliza a branch master como padrão, para o código estável do projeto. Então, tudo o que estiver nessa branch, em qualquer repositório, ~~teóricamente~~ é código estável. Logo, você nunca irá mexer diretamente nela, mas em outras branchs, para então fazer merge com a master.
+## Contribuition
 
-Agora vamos criar a branch com nossa feature. Temos duas formas de fazer isso. A forma mais rápida é:
-```
-git checkout -b improve_method_watch
-```
-"improve_method_watch" é o nome da nossa branch
-
-* Em paralelo, instale o npm em sua máquina.
-* Agora instale o gulp
-* Instale o Dev-Gulp (repare que aparecerá a pasta XPTO)
-* Instale o Sass-Gulp
+Rafael Feitoza Torres | UI/UX/Front-end
+[Gulp](https://gulpjs.com/)
+<h5 align="center">
+  <img src="https://avatars1.githubusercontent.com/u/42664620?s=460&v=4" alt="Git" />
+</h5>
