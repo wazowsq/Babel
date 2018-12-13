@@ -10,78 +10,44 @@
 </h3>
 
 <p align="center">
-    <a href="#about">About</a> &bull;
     <a href="#features">Features</a> &bull;
     <a href="#organization">Organization</a> &bull;
     <a href="#installation">Installation</a>
 </p>
 
-## About
+## Features
 
 Funcionalidade de interações com clientes via chat/whatsapp. (https://www.figma.com/proto/aelWB1IF6Bp4kKmFXpExMOCs/Intera%C3%A7%C3%B5es-Omni-Plusoft?node-id=39%3A43&viewport=241%2C201%2C0.160193&scaling=min-zoom)
 
 
-## Features
-
-
-
-
-
 ## Organization
 
-Complete design structure
+Complete structure
 
 ```
 life-design/
 ├── node_modules*
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
 ├── src
-│   ├── components
-│   │   │── alert.js
-│   │   └── button.js
-│   ├── dist
-│   │   │── brand
-│   │   │── css
-│   │   │   │── app.css
-│   │   │   │── index.css
-│   │   │   └── mongeral.min.css
-│   │   │── img
-│   │   └── js
-│   ├── include
-│   │   │── footer
-│   │   │   └── index.js
-│   │   │── header
-│   │   │   └── index.js
-│   │   └── navbar
-│   │       └── index.js
-│   ├── pages
-│   │   └── master
-│   │       └── index.js
-│   │── scss
-│   │   │── base
-│   │   │   └── _nomalize.scss
-│   │   │── components
-│   │   │   │── _button.scss
-│   │   │   └── _checkbox.scss
-│   │   │── helpers
-│   │   │   │── _animate.scss
-│   │   │   └── _fonts.scss
-│   │   │── settings
-│   │   │   │── _colors.scss
-│   │   │   │── _mixins.scss
-│   │   │   │── _oocss.scss
-│   │   │   └── _variables.scss
-│   │   │── vendor
-│   │   │   └── bootstrap-4.1.1
-│   │   │── _general.scss
-│   │   └── app.scss
-│   ├── index.js
-│   └── registerServiceWorker.js
+│   ├── css
+│   │   │── app.css
+│   │   └── style.min.css
+│   └── scss
+│       │── base
+│       │   └── _normalize.scss
+│       │── helpers
+│       │   └── _animate.scss
+│       │── settings
+│       │   │── _colors.scss
+│       │   │── _mixins.scss
+│       │   │── _oocss.scss
+│       │   └── _variables.css
+│       │── vendor
+│       │   └── bootstrap-4.1.1
+│       │── _general.scss
+│       └── app.scss
 ├── .gitignore
 ├── gulpfile.js
+├── interacoes.html
 ├── packege-lock.json
 ├── packege.json
 └── README.md
