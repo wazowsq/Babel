@@ -5,9 +5,9 @@
 
 -------
 
-<!--h3 align="center">
-  <img src="https://madstyle.mongeralaegon.com.br/assets/app/css/img/site/global/mongeral-aegon-logo-site.png" alt="Mongeral Aegon" />
-</h3-->
+<h3 align="center">
+  <img src="https://www.plusoft.com.br/wp-content/uploads/2017/02/Descubra-as-possibilidades-e-oportunidades-do-omni-Plusoft.jpg" alt="Plusoft Omni" />
+</h3>
 
 <p align="center">
     <a href="#about">About</a> &bull;
