@@ -61,7 +61,10 @@ git clone https://github.com/wazowsq/Babel.git
 ## Contribuition
 
 Rafael Feitoza Torres | UI/UX/Front-end
-[Gulp](https://gulpjs.com/)
+
+[LinkedIn](https://www.linkedin.com/in/torresrafael/)
+[Github](https://github.com/wazowsq)
+
 <h5 align="center">
   <img src="https://avatars1.githubusercontent.com/u/42664620?s=460&v=4" alt="Git" />
 </h5>
