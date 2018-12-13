@@ -18,17 +18,12 @@
 
 ## About
 
-The Life Design was thought of as an enterprise desgin system. Where all development and creation content is presented directly on the website (http://lifedesign-rafaeltorres.com).
-
-The goal since git directory, is to store the developed and created structure as a backup. In addition, you are thinking of contributing to the development of Life Design, you will be able to learn in an easy and effective way what and how we work in our team.
-
-Welcome, and good luck!
-
+Funcionalidade de interações com clientes via chat/whatsapp. (https://www.figma.com/proto/aelWB1IF6Bp4kKmFXpExMOCs/Intera%C3%A7%C3%B5es-Omni-Plusoft?node-id=39%3A43&viewport=241%2C201%2C0.160193&scaling=min-zoom)
 
 
 ## Features
 
-Write
+
 
 
 
