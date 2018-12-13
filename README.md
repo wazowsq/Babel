@@ -17,7 +17,7 @@
 
 ## Features
 
-Funcionalidade de interações com clientes via chat/whatsapp. (https://www.figma.com/proto/aelWB1IF6Bp4kKmFXpExMOCs/Intera%C3%A7%C3%B5es-Omni-Plusoft?node-id=39%3A43&viewport=241%2C201%2C0.160193&scaling=min-zoom)
+Funcionalidade de interações com clientes via chat/whatsapp. [Figma](https://www.figma.com/proto/aelWB1IF6Bp4kKmFXpExMOCs/Intera%C3%A7%C3%B5es-Omni-Plusoft?node-id=39%3A43&viewport=241%2C201%2C0.160193&scaling=min-zoom)
 
 
 ## Organization
@@ -25,7 +25,7 @@ Funcionalidade de interações com clientes via chat/whatsapp. (https://www.figm
 Complete structure
 
 ```
-life-design/
+Whatsapp Omni Plusoft/
 ├── node_modules*
 ├── src
 │   ├── css
