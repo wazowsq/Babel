@@ -10367,7 +10367,7 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg {
+#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg, body #interactions .content .area-msg .main-msg .date-msg {
   position: relative;
 }
 
@@ -10463,7 +10463,7 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg {
   text-align: center;
 }
 
@@ -10495,7 +10495,7 @@ template {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg {
   text-align: center;
 }
 
@@ -10906,6 +10906,16 @@ body #interactions .content .area-msg .main-msg {
   width: 100%;
   height: 100%;
   padding: 0 25px 50px;
+}
+
+body #interactions .content .area-msg .main-msg .date-msg {
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  color: #999999;
+  padding: 5px 0;
+  background: #e0e0e0;
+  margin: 10px 0;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info {

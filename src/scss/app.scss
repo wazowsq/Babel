@@ -463,6 +463,17 @@ body
                     width: $full-width; height: $full-height;
                     padding: 0 25px 50px;
 
+                    .date-msg
+                    {
+                        @extend #CENTER, #RELATIVE;
+                        width: $full-width;
+                        font-size: 10px;    font-weight: bold;
+                        color: $concrete;
+                        padding: 5px 0;
+                        background: darken($navy-silver, 2%);
+                        margin: 10px 0;
+                    }
+
                     .msg-info
                     {
                         @extend #LEFT, #NO-PADDING, #NO-MARGIN;
