@@ -159,6 +159,9 @@ body
                         overflow: hidden;
                         text-overflow: ellipsis;
                     }
+
+                    h5.name > i.favorite
+                    { color: $yellow; }
                 }
 
                 li.cont:hover,
@@ -248,7 +251,7 @@ body
 
                     .checkbox
                     {
-                        padding: 10px 12px;
+                        padding: 6px 12px;
 
                         label
                         {
@@ -267,10 +270,15 @@ body
             padding-left: 412px;
             background: $dark;
 
-            .aside
+            .row
             {
-                width: 300px;
-                border-left: $dark-silver 1px solid;
+                @extend #NO-MARGIN;
+                height: $full-height;
+            }
+
+            .area-msg
+            {
+                color: #000;
             }
         }
 

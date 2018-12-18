@@ -10409,7 +10409,7 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row {
   margin: 0;
 }
 
@@ -10652,6 +10652,10 @@ body #interactions .left-sb .sidebar ul > li p.msg {
   text-overflow: ellipsis;
 }
 
+body #interactions .left-sb .sidebar ul > li h5.name > i.favorite {
+  color: #EA9531;
+}
+
 body #interactions .left-sb .sidebar li.cont:hover,
 body #interactions .left-sb .sidebar li.active {
   transition: .3s;
@@ -10719,7 +10723,7 @@ body #interactions .left-sb .sidebar .tab-content {
 }
 
 body #interactions .left-sb .sidebar .tab-content .checkbox {
-  padding: 10px 12px;
+  padding: 6px 12px;
 }
 
 body #interactions .left-sb .sidebar .tab-content .checkbox label {
@@ -10734,9 +10738,12 @@ body #interactions .content {
   background: #E4E4E4;
 }
 
-body #interactions .content .aside {
-  width: 300px;
-  border-left: #DEDEDE 1px solid;
+body #interactions .content .row {
+  height: 100%;
+}
+
+body #interactions .content .area-msg {
+  color: #000;
 }
 
 body #interactions .teto {
