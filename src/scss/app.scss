@@ -94,7 +94,7 @@ body
                 @extend #RELATIVE;
                 width: 350px;
                 border-right: $dark-silver 1px solid;
-                padding-top: 105px;
+                padding-top: 115px;
 
                 ul
                 {
@@ -157,6 +157,15 @@ body
                     { background: $dark-purple; }
                 }
 
+                li.new
+                {
+                    h5.name, p.msg
+                    {
+                        @extend #BOLD;
+                        color: $purple;
+                    }
+                }
+
                 li.cont
                 {
                     .circle
@@ -202,6 +211,12 @@ body
 
                     p.channel
                     { color: $purple; }
+                }
+
+                .tab-content
+                {
+                    @extend #SHOW, #OVERFLOW;
+                    height: $full-height;
                 }
             }
         }
@@ -252,6 +267,34 @@ body
                     font-size: 11px;    font-weight: normal;
                     color: $purple;
                     padding: 0 10px;
+                }
+            }
+
+            ul.nav.nav-tabs
+            {
+                width: $full-width;
+
+                li
+                {
+                    @extend #LEFT, #NO-BORDER;
+                    width: ($full-width)/2;
+                    background: $silver;
+
+                    a
+                    {
+                        @extend #SHOW, #NO-BORDER, #CENTER, #NO-UNDERLINE;
+                        width: $full-width; height: $full-height;
+                        color: $purple;
+                        font-weight: 600;
+                    }
+                }
+
+                li.active
+                {
+                    @extend #NO-BORDER;
+                    background: $navy-silver;
+
+                    a { color: $pink; }
                 }
             }
         }   

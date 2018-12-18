@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .teto h3.title, body #interactions .teto .search {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li {
   float: left;
 }
 
@@ -10399,7 +10399,7 @@ template {
   display: none;
 }
 
-#SHOW, body #interactions .left-sb .sidebar ul > li .notif {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a {
   display: block;
 }
 
@@ -10431,7 +10431,7 @@ template {
   font-weight: normal;
 }
 
-#BOLD, body p strong, body a strong, body span strong {
+#BOLD, body p strong, body a strong, body span strong, body #interactions .left-sb .sidebar li.new h5.name, body #interactions .left-sb .sidebar li.new p.msg {
   font-weight: bold;
 }
 
@@ -10439,7 +10439,7 @@ template {
   font-style: italic;
 }
 
-#NO-BORDER {
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active {
   border: none;
 }
 
@@ -10451,7 +10451,7 @@ template {
   text-decoration: underline;
 }
 
-#NO-UNDERLINE {
+#NO-UNDERLINE, body #interactions .teto ul.nav.nav-tabs li a {
   text-decoration: none;
 }
 
@@ -10463,7 +10463,7 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a {
   text-align: center;
 }
 
@@ -10479,7 +10479,7 @@ template {
   border-radius: 50%;
 }
 
-#OVERFLOW, body #interactions .left-sb .sidebar ul {
+#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content {
   overflow: auto;
 }
 
@@ -10495,8 +10495,12 @@ template {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a {
   text-align: center;
+}
+
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active {
+  border: none;
 }
 
 /* Mixins
@@ -10593,7 +10597,7 @@ body #interactions .left-sb .settings li.active {
 body #interactions .left-sb .sidebar {
   width: 350px;
   border-right: #DEDEDE 1px solid;
-  padding-top: 105px;
+  padding-top: 115px;
 }
 
 body #interactions .left-sb .sidebar ul {
@@ -10654,6 +10658,10 @@ body #interactions .left-sb .sidebar li.active .circle {
   background: #213847;
 }
 
+body #interactions .left-sb .sidebar li.new h5.name, body #interactions .left-sb .sidebar li.new p.msg {
+  color: #515067;
+}
+
 body #interactions .left-sb .sidebar li.cont .circle {
   margin-top: 6px;
 }
@@ -10687,6 +10695,10 @@ body #interactions .left-sb .sidebar li.cont h5 span.time {
 
 body #interactions .left-sb .sidebar li.cont p.channel {
   color: #515067;
+}
+
+body #interactions .left-sb .sidebar .tab-content {
+  height: 100%;
 }
 
 body #interactions .content {
@@ -10732,4 +10744,28 @@ body #interactions .teto .search input {
   font-weight: normal;
   color: #515067;
   padding: 0 10px;
+}
+
+body #interactions .teto ul.nav.nav-tabs {
+  width: 100%;
+}
+
+body #interactions .teto ul.nav.nav-tabs li {
+  width: 50%;
+  background: #EEEEEE;
+}
+
+body #interactions .teto ul.nav.nav-tabs li a {
+  width: 100%;
+  height: 100%;
+  color: #515067;
+  font-weight: 600;
+}
+
+body #interactions .teto ul.nav.nav-tabs li.active {
+  background: #E5E5E5;
+}
+
+body #interactions .teto ul.nav.nav-tabs li.active a {
+  color: #EB3067;
 }

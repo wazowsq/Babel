@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <title>Interações Whatsapp Omni</title>
   </head>
   <body>
@@ -22,275 +24,391 @@
         <div class="sidebar sb-default">
           
           <div class="teto">
-            <h3 class="title">Interações em Atendimento</h3>
+            <ul class="nav nav-tabs">
+              <li class="active"><a data-toggle="tab" href="#contact">Contatos</a></li>
+              <li><a data-toggle="tab" href="#group">Grupos</a></li>
+            </ul>
             <div class="search">
               <input type="text" placeholder="Pesquisar">
             </div>
           </div>
-          <!-- sdasd a-->
-          <ul>
-            <li class="new">
-              <span class="circle">
-                <i class="fas fa-edit"></i>
-              </span>
-              <div class="txt">Nova Conversa</div>
-            </li>
-            <li class="cont active">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">WO</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">William Oliveira
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+          <div class="tab-content">
+            <ul id="contact" class="tab-pane in active">
+              <li class="new">
+                <span class="circle">
+                  <i class="fas fa-edit"></i>
+                </span>
+                <div class="txt">Nova Conversa</div>
+              </li>
+              <li class="cont active">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">WO</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">William Oliveira
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                  <span class="notif">2</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont new">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                    <span class="notif">2</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                  <span class="notif">2</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont new">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                    <span class="notif">2</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-            <li class="cont">
-              <div class="row">
-                <div class="col-sm-2">
-                  <span class="circle inital">RA</span>
-                </div>
-                <div class="col-sm-10">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <h5 class="name">Rachel Aniston
-                        <span class="time">12:02</span>
-                      </h5>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
-                    </div>
-                    <div class="col-sm-12">
-                      <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          </ul>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">RA</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Rachel Aniston
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <ul id="group" class="tab-pane">
+              <li class="new">
+                <span class="circle">
+                  <i class="fas fa-user-plus"></i>
+                </span>
+                <div class="txt">Novo Grupo</div>
+              </li>
+              <li class="cont active">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">GP</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Grupo Plusoft
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">IC</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Informativo aos Clientes
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="cont">
+                <div class="row">
+                  <div class="col-sm-2">
+                    <span class="circle inital">AS</span>
+                  </div>
+                  <div class="col-sm-10">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h5 class="name">Avisos SMS
+                          <span class="time">12:02</span>
+                        </h5>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="msg">Lorem Ipsumczx ir kļuvis par bba balb ldfsau gag ...</p>
+                      </div>
+                      <div class="col-sm-12">
+                        <p class="channel"><strong>Fila:</strong> Início 2  •  <strong>SLA:</strong> <span class="danger">00:12:58</span>  •  <strong>Canal:</strong> WebChat</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          
         </div>
       </div>
       <div class="content">
-        <div class="aside sb-default">
-          <div class="teto">
-            <h3 class="title">William Oliveira</h3>
-            <div class="search">
-              <input type="text" placeholder="Pesquisar">
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   </body>
