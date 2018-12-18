@@ -10379,11 +10379,11 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .hd h5.contact-data {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li {
   float: left;
 }
 
-#RIGHT, body .pull-right, body #interactions .sb-default, body #interactions .left-sb .sidebar ul li.newmsg .select-all, body #interactions .left-sb .sidebar li.cont h5 span.time {
+#RIGHT, body .pull-right, body #interactions .sb-default, body #interactions .left-sb .sidebar ul li.newmsg .select-all, body #interactions .left-sb .sidebar li.cont h5 span.time, body #interactions .content .area-msg .hd ul {
   float: right;
 }
 
@@ -10439,7 +10439,7 @@ template {
   font-style: italic;
 }
 
-#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active {
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .area-msg .tools .btn {
   border: none;
 }
 
@@ -10499,7 +10499,7 @@ template {
   text-align: center;
 }
 
-#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active {
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .area-msg .tools .btn {
   border: none;
 }
 
@@ -10804,11 +10804,14 @@ body #interactions .content .col-area {
   height: 100%;
 }
 
-body #interactions .content .area-msg .hd {
+body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools {
   width: 100%;
+  padding: 0 25px;
+}
+
+body #interactions .content .area-msg .hd {
   height: 64px;
   background: #F8F8F8;
-  padding: 0 25px;
 }
 
 body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd span {
@@ -10831,4 +10834,48 @@ body #interactions .content .area-msg .hd h5.contact-data span {
   padding: 0 7px;
   margin: 0 7px;
   border-left: solid 1px #666666;
+}
+
+body #interactions .content .area-msg .hd ul {
+  margin-top: 20px;
+}
+
+body #interactions .content .area-msg .hd ul li {
+  margin-left: 25px;
+}
+
+body #interactions .content .area-msg .hd ul li a {
+  font-size: 15px;
+  color: #515067;
+}
+
+body #interactions .content .area-msg .hd ul li a:hover {
+  color: #EB3067;
+}
+
+body #interactions .content .area-msg .hd ul li.active a {
+  color: #EB3067;
+}
+
+body #interactions .content .area-msg .tools {
+  height: 51px;
+  background: #D8D8D8;
+  padding-top: 12px;
+}
+
+body #interactions .content .area-msg .tools .btn {
+  font-size: 11px;
+  color: #FBFBFB;
+}
+
+body #interactions .content .area-msg .tools .btn-success {
+  background: #42CB13;
+}
+
+body #interactions .content .area-msg .tools .btn-danger {
+  background: #EB3067;
+}
+
+body #interactions .content .area-msg .tools .btn-default {
+  background: #515067;
 }

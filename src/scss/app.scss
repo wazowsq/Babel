@@ -348,12 +348,17 @@ body
 
             .area-msg
             {
-                .hd
+                .hd, .tools
                 {
                     @extend #LEFT;
-                    width: $full-width; height: 64px;
-                    background: $light-silver;
+                    width: $full-width;
                     padding: 0 25px;
+                }
+
+                .hd
+                {
+                    height: 64px;
+                    background: $light-silver;
 
                     h5.contact-data, span
                     {
@@ -380,6 +385,46 @@ body
                             { @extend #NO-MARGIN; }
                         }
                     }
+
+                    ul
+                    {
+                        @extend #RIGHT;
+                        margin-top: 20px;
+
+                        li
+                        {
+                            @extend #LEFT;
+                            margin-left: 25px;
+
+                            a
+                            {
+                                font-size: 15px;
+                                color: $purple;
+
+                                &:hover { color: $pink; }
+                            }
+                        }
+
+                        li.active a { color: $pink; }
+                    }
+                }
+
+                .tools
+                {
+                    height: 51px;
+                    background: $black-silver;
+                    padding-top: 12px;
+
+                    .btn
+                    {
+                        @extend #NO-BORDER;
+                        font-size: 11px;
+                        color: $light;
+                    }
+
+                    .btn-success { background: $success; }
+                    .btn-danger { background: $danger; }
+                    .btn-default { background: $purple; }
                 }
             }
         }
