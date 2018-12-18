@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .content, body #interactions .teto {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content {
   position: absolute;
 }
 
@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .hd h5.contact-data {
   float: left;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area {
   padding: 0;
 }
 
@@ -10732,20 +10732,6 @@ body #interactions .left-sb .sidebar .tab-content .checkbox label {
   font-weight: 400;
 }
 
-body #interactions .content {
-  width: 100%;
-  padding-left: 412px;
-  background: #E4E4E4;
-}
-
-body #interactions .content .row {
-  height: 100%;
-}
-
-body #interactions .content .area-msg {
-  color: #000;
-}
-
 body #interactions .teto {
   width: 100%;
   top: 0;
@@ -10802,4 +10788,47 @@ body #interactions .teto ul.nav.nav-tabs li.active {
 
 body #interactions .teto ul.nav.nav-tabs li.active a {
   color: #EB3067;
+}
+
+body #interactions .content {
+  width: 100%;
+  padding-left: 412px;
+  background: #E4E4E4;
+}
+
+body #interactions .content .row {
+  height: 100%;
+}
+
+body #interactions .content .col-area {
+  height: 100%;
+}
+
+body #interactions .content .area-msg .hd {
+  width: 100%;
+  height: 64px;
+  background: #F8F8F8;
+  padding: 0 25px;
+}
+
+body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd span {
+  font-size: 12px;
+  color: #515067;
+}
+
+body #interactions .content .area-msg .hd h5.contact-data {
+  line-height: 64px;
+  font-weight: 600;
+}
+
+body #interactions .content .area-msg .hd h5.contact-data i.favorite {
+  color: #EA9531;
+}
+
+body #interactions .content .area-msg .hd h5.contact-data span {
+  font-weight: 300;
+  font-size: 10px;
+  padding: 0 7px;
+  margin: 0 7px;
+  border-left: solid 1px #666666;
 }
