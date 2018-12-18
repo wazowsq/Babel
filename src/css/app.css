@@ -10379,11 +10379,11 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
   float: left;
 }
 
-#RIGHT, body .pull-right, body #interactions .sb-default, body #interactions .left-sb .sidebar ul li.newmsg .select-all, body #interactions .left-sb .sidebar li.cont h5 span.time, body #interactions .content .area-msg .hd ul, body #interactions .content .area-msg .tools .list-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+#RIGHT, body .pull-right, body #interactions .sb-default, body #interactions .left-sb .sidebar ul li.newmsg .select-all, body #interactions .left-sb .sidebar li.cont h5 span.time, body #interactions .content .area-msg .hd ul, body #interactions .content .area-msg .tools .list-info, body #interactions .content .area-msg .main-msg .msg-info .msg-operator, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   float: right;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   padding: 0;
 }
 
@@ -10479,7 +10479,7 @@ template {
   border-radius: 50%;
 }
 
-#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content {
+#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content, body #interactions .content .area-msg .main-msg {
   overflow: auto;
 }
 
@@ -10900,6 +10900,37 @@ body #interactions .content .area-msg .tools .list-info li .danger {
 
 body #interactions .content .area-msg .tools .list-info li:last-child {
   padding-right: 0;
+}
+
+body #interactions .content .area-msg .main-msg {
+  width: 100%;
+  height: 100%;
+  padding: 0 25px 50px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info {
+  width: 100%;
+  margin: 5px 0;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg {
+  border-radius: 15px;
+  padding: 10px 20px;
+  min-width: 25%;
+  max-width: 80%;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg p {
+  font-size: 12px;
+  color: #666666;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client {
+  background: #EEEEEE;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-operator {
+  background: #D8D8D8;
 }
 
 body #interactions .content .area-msg .toolsbar-msg {

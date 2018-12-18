@@ -457,6 +457,45 @@ body
                     }
                 }
 
+                .main-msg
+                {
+                    @extend #OVERFLOW;
+                    width: $full-width; height: $full-height;
+                    padding: 0 25px 50px;
+
+                    .msg-info
+                    {
+                        @extend #LEFT, #NO-PADDING, #NO-MARGIN;
+                        width: $full-width; 
+                        margin: 5px 0;
+
+                        .box-msg
+                        {
+                            border-radius: 15px;
+                            padding: 10px 20px;
+                            min-width: 25%; max-width: 80%;
+    
+                            p
+                            {
+                                font-size: 12px;
+                                color: $dark-concrete;
+                            }
+                        }
+
+                        .msg-client
+                        {
+                            @extend #LEFT;
+                            background: $silver;
+                        }
+
+                        .msg-operator
+                        {
+                            @extend #RIGHT;
+                            background: $black-silver;
+                        }
+                    }
+                }
+
                 .toolsbar-msg
                 {
                     @extend #ABSOLUTE;
