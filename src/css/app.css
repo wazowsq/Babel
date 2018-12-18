@@ -10701,6 +10701,16 @@ body #interactions .left-sb .sidebar .tab-content {
   height: 100%;
 }
 
+body #interactions .left-sb .sidebar .tab-content .checkbox {
+  padding: 10px 12px;
+}
+
+body #interactions .left-sb .sidebar .tab-content .checkbox label {
+  color: #515067;
+  font-size: 12px;
+  font-weight: 400;
+}
+
 body #interactions .content {
   width: 100%;
   padding-left: 412px;

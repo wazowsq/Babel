@@ -217,6 +217,17 @@ body
                 {
                     @extend #SHOW, #OVERFLOW;
                     height: $full-height;
+
+                    .checkbox
+                    {
+                        padding: 10px 12px;
+
+                        label
+                        {
+                            color: $purple;
+                            font-size: 12px;    font-weight: 400;
+                        }
+                    }
                 }
             }
         }
