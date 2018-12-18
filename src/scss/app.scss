@@ -348,6 +348,8 @@ body
 
             .area-msg
             {
+                @extend #RELATIVE;
+
                 .hd, .tools
                 {
                     @extend #LEFT;
@@ -425,6 +427,101 @@ body
                     .btn-success { background: $success; }
                     .btn-danger { background: $danger; }
                     .btn-default { background: $purple; }
+
+                    .list-info
+                    {
+                        @extend #RIGHT;
+
+                        li
+                        {
+                            @extend #LEFT, #CENTER;;
+                            max-width: 60px;
+                            padding: 0 10px;
+
+                            label
+                            {
+                                @extend #SHOW;
+                                font-size: 10px;
+                                color: $purple;
+                            }
+
+                            label.tlts
+                            { font-weight: bold; }
+
+                            .danger 
+                            { color: $danger; }
+
+                            &:last-child
+                            { padding-right: 0; }
+                        }
+                    }
+                }
+
+                .toolsbar-msg
+                {
+                    @extend #ABSOLUTE;
+                    width: $full-width; height: 50px;
+                    bottom: 0;
+                    background: $light;
+                    z-index: 1;
+
+                    .textbox
+                    {
+                        @extend #LEFT;
+                        width: $full-width; height: $full-height;
+                        background: $silver;
+                        padding-right: 240px;
+
+                        textarea.send-new-msg
+                        {
+                            @extend #LEFT, #NO-BORDER;
+                            height: $full-height;    width: $full-width;
+                            padding: 15px 25px;
+                            font-size: 12px;
+                            color: $concrete;
+                            background: transparent;
+                        }
+
+                        button
+                        {
+                            @extend #NO-BORDER, #NO-PADDING, #NO-MARGIN, #POINTER, #RIGHT;
+                            background: transparent;
+                            color: $pink;
+                            margin-top: 11px;   margin-right: -40px;
+
+                            &:hover
+                            { color: $purple; }
+                        }
+                    }
+
+                    ul.icon-action
+                    {
+                        @extend #ABSOLUTE;
+                        right: 0;
+                        padding-right: 25px;
+                        line-height: 45px;
+                        background: $light;
+
+                        li
+                        {
+                            @extend #LEFT;
+                            padding: 0 12px;
+
+                            &:last-child
+                            { padding-right: 0; }
+
+                            &:first-child
+                            { padding-left: 25px; }
+
+                            a i
+                            {
+                                color: $purple;
+                                font-size: 14px;
+
+                                &:hover { color: $pink; }
+                            }
+                        }
+                    }
                 }
             }
         }
