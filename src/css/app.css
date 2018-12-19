@@ -11132,6 +11132,7 @@ body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
   padding-right: 25px;
   line-height: 45px;
   background: #FBFBFB;
+  padding-bottom: 5px;
 }
 
 body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
@@ -11153,4 +11154,19 @@ body #interactions .content .area-msg .toolsbar-msg ul.icon-action li a i {
 
 body #interactions .content .area-msg .toolsbar-msg ul.icon-action li a i:hover {
   color: #EB3067;
+}
+
+body #interactions .content .division-4 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+body #interactions .content .division-3 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+body #interactions .content .division-2 {
+  flex: 0 0 100%;
+  max-width: 100%;
 }

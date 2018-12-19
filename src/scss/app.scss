@@ -725,6 +725,7 @@ body
                         padding-right: 25px;
                         line-height: 45px;
                         background: $light;
+                        padding-bottom: 5px;
 
                         li
                         {
@@ -747,6 +748,24 @@ body
                         }
                     }
                 }
+            }
+
+            .division-4
+            {
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+
+            .division-3
+            {
+                flex: 0 0 75%;
+                max-width: 75%;
+            }
+
+            .division-2
+            {
+                flex: 0 0 100%;
+                max-width: 100%;
             }
         }
     }
