@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .search, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp textarea, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
+#LEFT, body .pull-left, body #interactions .search, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp textarea, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle, body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li {
   float: left;
 }
 
@@ -10409,7 +10409,7 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes, body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li p.msgr strong {
   margin: 0;
 }
 
@@ -11370,6 +11370,25 @@ body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-conta
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li {
+  width: 100%;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li p.msgr {
+  font-size: 10px;
+  font-weight: 100;
+  color: #515067;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li p.msgr span {
+  font-size: 10px;
+  font-weight: 400;
+  color: #515067;
 }
 
 body #interactions .content .area-add-right .info-boxes .ib-gp:nth-child(odd) {

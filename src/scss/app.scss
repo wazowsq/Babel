@@ -1004,6 +1004,35 @@ body
                             }
 
                         }
+
+                        .info-search
+                        {
+                            li
+                            {
+                                @extend #LEFT;
+                                width: $full-width;
+
+                                p.msgr
+                                {
+                                    font-size: 10px;    font-weight: 100;
+                                    color: $purple;
+
+                                    white-space: nowrap; 
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    
+                                    span
+                                    {
+                                        font-size: 10px;
+                                        font-weight: 400;
+                                        color: $purple;
+                                    }
+
+                                    strong 
+                                    { @extend #NO-MARGIN; }
+                                }
+                            }
+                        }
                     }
 
                     .ib-gp:nth-child(odd)
