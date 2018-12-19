@@ -521,7 +521,7 @@ body
 
                             .progress-pl
                             {
-                                width: 95%;
+                                width: 98%;
                                 background: $dark-silver;
 
                                 .progress-pl-bar
@@ -584,7 +584,41 @@ body
                             @extend #RIGHT;
                             background: $black-silver;
                             border-bottom-right-radius: 0;
+                            padding-right: 65px;
                         }
+
+                        .time-msg::before
+                        {
+                            -moz-osx-font-smoothing: grayscale;
+                            -webkit-font-smoothing: antialiased;
+                            display: inline-block;
+                            font-style: normal;
+                            font-variant: normal;
+                            text-rendering: auto;
+                            line-height: 1;
+                            font-family: "Font Awesome 5 Free";
+                            font-weight: 900;
+                            margin-right: 5px;
+                        }
+
+                        .sent::before
+                        {
+                            content: "\f00c";
+                            color: $concrete;
+                        }
+
+                        .received::before
+                        {
+                            content: "\f560";
+                            color: $concrete;
+                        }
+ 
+                        .visualized::before
+                        {
+                            content: "\f560";
+                            color: $success;
+                        }
+
                     }
                 }
 

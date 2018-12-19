@@ -10961,7 +10961,7 @@ body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl,
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl {
-  width: 95%;
+  width: 98%;
   background: #DEDEDE;
 }
 
@@ -11010,6 +11010,35 @@ body #interactions .content .area-msg .main-msg .msg-info .msg-client {
 body #interactions .content .area-msg .main-msg .msg-info .msg-operator {
   background: #D8D8D8;
   border-bottom-right-radius: 0;
+  padding-right: 65px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .time-msg::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 5px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .sent::before {
+  content: "\f00c";
+  color: #999999;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .received::before {
+  content: "\f560";
+  color: #999999;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .visualized::before {
+  content: "\f560";
+  color: #42CB13;
 }
 
 body #interactions .content .area-msg .toolsbar-msg {
