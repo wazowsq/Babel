@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
   position: absolute;
 }
 
@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
   float: left;
 }
 
@@ -10395,11 +10395,11 @@ template {
   margin: 0 auto;
 }
 
-#HIDE {
+#HIDE, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action {
   display: none;
 }
 
-#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg {
   display: block;
 }
 
@@ -10451,7 +10451,7 @@ template {
   text-decoration: underline;
 }
 
-#NO-UNDERLINE, body #interactions .teto ul.nav.nav-tabs li a {
+#NO-UNDERLINE, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a {
   text-decoration: none;
 }
 
@@ -11018,6 +11018,42 @@ body #interactions .content .area-msg .main-msg .msg-info .msg-client {
   border-bottom-left-radius: 0;
 }
 
+body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action {
+  padding: 5px 0;
+  background: #FBFBFB;
+  min-width: 170px;
+  z-index: 1;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li {
+  width: 100%;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  color: #515067;
+  padding: 5px 15px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a:hover {
+  color: #EB3067;
+  background: #EEEEEE;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li.active a {
+  color: #EB3067;
+  background: #EEEEEE;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .msg-client .dp-active {
+  color: #EB3067;
+}
+
 body #interactions .content .area-msg .main-msg .msg-info .msg-operator {
   background: #D8D8D8;
   border-bottom-right-radius: 0;
@@ -11061,7 +11097,7 @@ body #interactions .content .area-msg .toolsbar-msg {
   height: 50px;
   bottom: 0;
   background: #FBFBFB;
-  z-index: 1;
+  z-index: 2;
 }
 
 body #interactions .content .area-msg .toolsbar-msg .textbox {
