@@ -10536,6 +10536,10 @@ html, body, #interactions, .content {
   height: 100%;
 }
 
+body .hide {
+  display: none !important;
+}
+
 body p, body label, body span, body a, body li {
   color: #EEEEEE;
 }

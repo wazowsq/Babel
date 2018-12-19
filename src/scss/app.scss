@@ -8,6 +8,9 @@ html, body, #interactions, .content
 
 body
 {
+    .hide
+    { display: none !important; }
+
     p, label, span, a, li
     {
         @if (lightness($silver) < 30) {
