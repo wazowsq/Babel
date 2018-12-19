@@ -10367,11 +10367,11 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg {
+#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg, body #interactions .content .area-add-right, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action, body #interactions .content .area-add-right .hdr, body #interactions .content .area-add-right .info-boxes {
   position: absolute;
 }
 
@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li {
+#LEFT, body .pull-left, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto .search, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   float: left;
 }
 
@@ -10399,7 +10399,7 @@ template {
   display: none;
 }
 
-#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
   display: block;
 }
 
@@ -10409,7 +10409,7 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes {
   margin: 0;
 }
 
@@ -10463,11 +10463,11 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   text-align: center;
 }
 
-#POINTER, body #interactions .left-sb .settings li, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+#POINTER, body #interactions .left-sb .settings li, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
   cursor: pointer;
 }
 
@@ -10495,7 +10495,7 @@ template {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   text-align: center;
 }
 
@@ -11169,4 +11169,123 @@ body #interactions .content .division-3 {
 body #interactions .content .division-2 {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+body #interactions .content .area-add-right {
+  border-left: solid 1px #DEDEDE;
+  background: #F8F8F8;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+body #interactions .content .area-add-right .hdr {
+  width: 100%;
+  height: 64px;
+  line-height: 64px;
+  background: #EEEEEE;
+  z-index: 1;
+}
+
+body #interactions .content .area-add-right .hdr p {
+  width: 100%;
+  color: #EB3067;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+body #interactions .content .area-add-right .info-boxes {
+  width: 100%;
+  height: 100%;
+  padding-top: 64px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp {
+  width: 100%;
+  padding: 20px 15px;
+  border-bottom: solid 1px #DEDEDE;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp h4 {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  color: #515067;
+  margin-bottom: 15px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp p {
+  font-size: 12px;
+  font-weight: 100;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp p strong {
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp p i.favorite {
+  color: #EA9531;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li:last-child {
+  margin-bottom: 0;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
+  height: 25px;
+  width: 25px;
+  background: #EB3067;
+  border-radius: 50%;
+  line-height: 25px;
+  font-size: 10px;
+  font-weight: 100;
+  margin: 2px;
+  background: #515067;
+  color: #FBFBFB;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .number {
+  background: #EB3067;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact span {
+  font-size: 12px;
+  color: #515067;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt strong, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact span strong {
+  font-size: 14px;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt {
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp:nth-child(odd) {
+  background: #E5E5E5;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp:nth-child(even) {
+  background: white;
 }

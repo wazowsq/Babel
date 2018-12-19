@@ -767,6 +767,139 @@ body
                 flex: 0 0 100%;
                 max-width: 100%;
             }
+
+            .area-add-right
+            {
+                @extend #RELATIVE;
+                border-left: solid 1px $dark-silver;
+                background: $light-silver;
+                flex: 0 0 25%;
+                max-width: 25%;
+
+                .hdr
+                {
+                    @extend #ABSOLUTE;
+                    width: $full-width; height: 64px;
+                    line-height: 64px;
+                    background: $silver;
+                    z-index: 1;
+
+                    p
+                    {
+                        @extend #CENTER;
+                        width: $full-width;
+                        color: $pink;
+                        font-size: 15px;    font-weight: 600;
+                    }
+                }
+
+                .info-boxes
+                {
+                    @extend #ABSOLUTE, #NO-MARGIN;
+                    width: $full-width; height: $full-height;
+                    padding-top: 64px;
+
+                    .ib-gp
+                    {
+                        @extend #LEFT;
+                        width: $full-width;
+                        padding: 20px 15px;
+                        border-bottom: solid 1px $dark-silver;
+
+                        h4
+                        {
+                            @extend #LEFT;
+                            width: $full-width;
+                            font-size: 14px;    font-weight: 600;
+                            color: $purple;
+                            margin-bottom: 15px;
+                        }
+
+                        p
+                        {
+                            font-size: 12px;    font-weight: 100;
+                            color: $dark-concrete;
+                            margin-bottom: 5px;
+
+                            strong
+                            {
+                                font-size: 12px;
+                                font-weight: bold;
+                                margin-right: 5px;
+                            }
+
+                            i.favorite
+                            { color: $yellow; }
+                        }
+
+                        .list-group-contact
+                        {
+
+                            li
+                            {
+                                @extend #LEFT, #POINTER, #RELATIVE;
+                                width: $full-width;
+                                margin-bottom: 15px;
+
+                                &:last-child
+                                { margin-bottom: 0; }
+
+                                .box
+                                {
+                                    @extend #LEFT;
+                                    height: 60px;   width: 60px;
+                                    margin-right: 5px;
+
+                                    .circle
+                                    {
+                                        @extend #LEFT, #CENTER;
+                                        height: 25px;   width: 25px;
+                                        background: $pink;
+                                        border-radius: 50%;
+                                        line-height: 25px;
+                                        font-size: 10px;    font-weight: 100;
+                                        margin: 2px;
+                                        background: $purple;
+                                        color: $light;
+                                    }
+
+                                    .number
+                                    { background: $pink; }
+                                }
+                            }
+
+                            p.txt, span
+                            {
+                                font-size: 12px;
+                                color: $purple; 
+
+                                strong
+                                { font-size: 14px; }
+                            }
+
+                            p.txt
+                            {
+                                padding-top: 10px;
+                                font-weight: normal;
+
+                                span
+                                {
+                                    @extend #SHOW;
+                                    white-space: nowrap; 
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .ib-gp:nth-child(odd)
+                    { background: $navy-silver; }
+                    .ib-gp:nth-child(even)
+                    { background: lighten($light, 10%); }
+                }
+            }
         }
     }
 }
