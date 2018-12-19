@@ -10954,6 +10954,11 @@ body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg {
   margin-right: 20px;
 }
 
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress {
+  border-radius: initial;
+  height: 1px;
+}
+
 body #interactions .content .area-msg .main-msg .msg-info .msg-client {
   background: #EEEEEE;
 }
