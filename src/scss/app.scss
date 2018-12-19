@@ -419,6 +419,12 @@ body
                     padding-top: 12px;
                     z-index: 2;
 
+                    .btn-group-action
+                    {
+                        .btn-small, .toggle-action
+                        { @extend #HIDE; }
+                    }
+
                     .btn
                     {
                         @extend #NO-BORDER;
@@ -757,7 +763,7 @@ body
                 flex: 0 0 50%;
                 max-width: 50%;
 
-                .btn-group-action
+                .tools .btn-group-action
                 {
                     @extend #LEFT, #RELATIVE;
                     
@@ -766,7 +772,7 @@ body
 
                     .btn-small
                     {
-                        @extend #NO-BORDER;
+                        @extend #NO-BORDER, #SHOW;
                         background: transparent;
                         margin-left: -5px;
                         color: $purple;
