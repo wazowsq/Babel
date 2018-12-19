@@ -10479,7 +10479,7 @@ template {
   border-radius: 50%;
 }
 
-#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content, body #interactions .content .area-msg .main-msg .ct-msg {
+#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-add-right .info-boxes .ib-gp {
   overflow: auto;
 }
 
@@ -11274,8 +11274,10 @@ body #interactions .content .area-add-right .info-boxes {
 
 body #interactions .content .area-add-right .info-boxes .ib-gp {
   width: 100%;
+  height: 100%;
   padding: 20px 15px;
   border-bottom: solid 1px #DEDEDE;
+  padding-bottom: 70px;
 }
 
 body #interactions .content .area-add-right .info-boxes .ib-gp h4 {

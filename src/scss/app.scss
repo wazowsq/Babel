@@ -898,10 +898,11 @@ body
 
                     .ib-gp
                     {
-                        @extend #LEFT;
-                        width: $full-width;
+                        @extend #LEFT, #OVERFLOW;
+                        width: $full-width; height: $full-height;
                         padding: 20px 15px;
                         border-bottom: solid 1px $dark-silver;
+                        padding-bottom: 70px;
 
                         h4
                         {
