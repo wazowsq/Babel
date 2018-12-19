@@ -11043,12 +11043,13 @@ body #interactions .content .area-msg .main-msg .msg-info .msg-client {
 body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action {
   padding: 5px 0;
   background: #FBFBFB;
-  min-width: 170px;
+  max-width: 170px;
   z-index: 1;
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
-  left: 0;
+  right: 0;
+  margin-right: 5px;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li {

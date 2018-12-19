@@ -624,12 +624,13 @@ body
                                 @extend #ABSOLUTE, #HIDE; 
                                 padding: 5px 0;
                                 background: $light;
-                                min-width: 170px;
+                                max-width: 170px;
                                 z-index: 1;
                                 -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
                                 -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
                                 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
-                                left: 0;
+                                right: 0;
+                                margin-right: 5px;
 
                                 li
                                 {
@@ -806,7 +807,7 @@ body
                         @extend #ABSOLUTE, #SHOW; 
                         padding: 5px 0;
                         background: $light;
-                        min-width: 170px;
+                        min-width: 170px; 
                         z-index: 99;
                         -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
                         -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
