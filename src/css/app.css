@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .search, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
+#LEFT, body .pull-left, body #interactions .search, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp textarea, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   float: left;
 }
 
@@ -10439,7 +10439,7 @@ template {
   font-style: italic;
 }
 
-#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .area-msg .tools .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -10499,7 +10499,7 @@ template {
   text-align: center;
 }
 
-#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .area-msg .tools .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -10817,6 +10817,23 @@ body #interactions .content {
   background: #E4E4E4;
 }
 
+body #interactions .content .btn {
+  font-size: 11px;
+  color: #FBFBFB;
+}
+
+body #interactions .content .btn-success {
+  background: #42CB13;
+}
+
+body #interactions .content .btn-danger {
+  background: #CB3F13;
+}
+
+body #interactions .content .btn-default {
+  background: #515067;
+}
+
 body #interactions .content .row {
   height: 100%;
 }
@@ -10884,23 +10901,6 @@ body #interactions .content .area-msg .tools {
   background: #D8D8D8;
   padding-top: 12px;
   z-index: 2;
-}
-
-body #interactions .content .area-msg .tools .btn {
-  font-size: 11px;
-  color: #FBFBFB;
-}
-
-body #interactions .content .area-msg .tools .btn-success {
-  background: #42CB13;
-}
-
-body #interactions .content .area-msg .tools .btn-danger {
-  background: #CB3F13;
-}
-
-body #interactions .content .area-msg .tools .btn-default {
-  background: #515067;
 }
 
 body #interactions .content .area-msg .tools .list-info li {
@@ -11258,7 +11258,7 @@ body #interactions .content .area-add-right .hdr p {
 body #interactions .content .area-add-right .hdr .btn-close {
   right: 0;
   top: 0;
-  margin-top: 13px;
+  margin-top: 18px;
   background: transparent;
 }
 
@@ -11301,6 +11301,23 @@ body #interactions .content .area-add-right .info-boxes .ib-gp p strong {
 
 body #interactions .content .area-add-right .info-boxes .ib-gp p i.favorite {
   color: #EA9531;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp p.danger {
+  color: #CB3F13;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp textarea {
+  width: 100%;
+  min-height: 100px;
+  border-color: #999999;
+  padding: 5px;
+  font-size: 11px;
+  color: #515067;
+}
+
+body #interactions .content .area-add-right .info-boxes .ib-gp button {
+  margin-top: 10px;
 }
 
 body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
