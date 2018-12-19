@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
   position: absolute;
 }
 
@@ -10688,7 +10688,7 @@ body #interactions .left-sb .sidebar li.cont h5 strong, body #interactions .left
 }
 
 body #interactions .left-sb .sidebar li.cont h5 .danger, body #interactions .left-sb .sidebar li.cont p .danger {
-  color: #EB3067;
+  color: #CB3F13;
   font-size: 11px;
 }
 
@@ -10874,7 +10874,7 @@ body #interactions .content .area-msg .tools .btn-success {
 }
 
 body #interactions .content .area-msg .tools .btn-danger {
-  background: #EB3067;
+  background: #CB3F13;
 }
 
 body #interactions .content .area-msg .tools .btn-default {
@@ -10896,7 +10896,7 @@ body #interactions .content .area-msg .tools .list-info li label.tlts {
 }
 
 body #interactions .content .area-msg .tools .list-info li .danger {
-  color: #EB3067;
+  color: #CB3F13;
 }
 
 body #interactions .content .area-msg .tools .list-info li:last-child {
@@ -10922,13 +10922,13 @@ body #interactions .content .area-msg .main-msg .date-msg {
   color: #999999;
   padding: 5px 0;
   background: #d7d6e0;
-  margin: 10px 0;
+  margin: 15px 0;
   color: #515067;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info {
   width: 100%;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .box-msg {
@@ -10954,17 +10954,62 @@ body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg {
   margin-right: 20px;
 }
 
-body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress {
-  border-radius: initial;
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar {
   height: 1px;
+  left: 0;
+  bottom: 0;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl {
+  width: 95%;
+  background: #DEDEDE;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar {
+  background: #CB3F13;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress {
+  background: #CB3F13;
+  right: 0;
+  color: #FBFBFB;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: -10px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .answered .progress-pl-bar {
+  background: #515067;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .answered .progress-pl-bar .timer-prgress {
+  background: #515067;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .answered .progress-pl-bar .timer-prgress::after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  margin-left: 5px;
+  color: #42CB13;
+  font-weight: 900;
+  content: "\f00c";
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .msg-client {
   background: #EEEEEE;
+  border-bottom-left-radius: 0;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .msg-operator {
   background: #D8D8D8;
+  border-bottom-right-radius: 0;
 }
 
 body #interactions .content .area-msg .toolsbar-msg {
