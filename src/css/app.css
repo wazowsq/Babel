@@ -10395,7 +10395,7 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full {
+#HIDE, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full {
   display: none;
 }
 
@@ -10813,7 +10813,7 @@ body #interactions .teto ul.nav.nav-tabs li.active a {
 
 body #interactions .content {
   width: 100%;
-  padding-left: 412px;
+  padding-left: 350px;
   background: #E4E4E4;
 }
 

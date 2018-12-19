@@ -108,7 +108,7 @@ body
 
             .settings
             {
-                @extend #LEFT, #CENTER;
+                @extend #LEFT, #CENTER, #HIDE;
                 width: 62px;    
                 padding: 20px 0;
                 border-right: $silver 1px solid;
@@ -352,7 +352,7 @@ body
         {
             @extend #ABSOLUTE, #NO-PADDING;
             width: $full-width;
-            padding-left: 412px;
+            padding-left: 350px; //quando quiserem usar o settings na lateral direita, colocar padding de 412px;
             background: $dark;
 
             .btn
