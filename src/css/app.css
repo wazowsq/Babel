@@ -10914,8 +10914,9 @@ body #interactions .content .area-msg .main-msg .date-msg {
   font-weight: bold;
   color: #999999;
   padding: 5px 0;
-  background: #e0e0e0;
+  background: #d7d6e0;
   margin: 10px 0;
+  color: #515067;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info {

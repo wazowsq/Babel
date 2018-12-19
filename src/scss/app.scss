@@ -470,8 +470,9 @@ body
                         font-size: 10px;    font-weight: bold;
                         color: $concrete;
                         padding: 5px 0;
-                        background: darken($navy-silver, 2%);
+                        background: lighten($purple, 50%);
                         margin: 10px 0;
+                        color: $purple;
                     }
 
                     .msg-info
