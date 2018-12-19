@@ -70,6 +70,7 @@ body
             width: $full-width; height: 50px;
             background: $navy-silver;
             padding: 10px;
+            z-index: 3;
 
             &::before
             {
@@ -98,6 +99,93 @@ body
                 color: $purple;
                 padding: 0 10px;
                 padding-left: 35px;
+            }
+
+            ul.drop-filter
+            {
+                @extend #ABSOLUTE, #NO-PADDING, #NO-MARGIN;
+                padding: 5px 0;
+                background: $light-silver;
+                width: 330px;
+                z-index: 1;
+                -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+                -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+                height: initial !important;
+
+                > li
+                {
+                    @extend #LEFT, #NO-MARGIN;
+                    width: $full-width;
+                    color: $silver;
+                    padding: 0 !important;
+                }
+
+                li.list-filter
+                {
+                    color: $silver;
+
+                    a
+                    {
+                        @extend #NO-UNDERLINE, #LEFT, #RELATIVE;
+                        width: $full-width;
+                        font-size: 12px;    font-weight: 400;
+                        color: $purple;
+                        padding: 5px 15px;
+                        padding-left: 30px;
+
+                        &:hover
+                        {
+                            color: $pink;
+                            background: $silver;
+                        }
+                    }
+                }
+
+                .more-filter
+                {
+                    @extend #LEFT;
+                    background: $silver;
+                    border: none;
+
+                    ol { @extend #NO-LIST; }
+
+                    li.list-more
+                    {
+                        @extend #LEFT;
+                        padding: 5px 10px;
+
+                        a
+                        {
+                            @extend #NO-UNDERLINE;
+                            color: $purple;
+                            font-size: 12px;    font-weight: 400;
+                        }
+                    }
+                }
+
+                li.active a
+                {
+                    color: $pink;
+
+                    &:before
+                    {
+                        @extend #ABSOLUTE;
+                        -moz-osx-font-smoothing: grayscale;
+                        -webkit-font-smoothing: antialiased;
+                        display: inline-block;
+                        font-style: normal;
+                        font-variant: normal;
+                        text-rendering: auto;
+                        line-height: 1;
+                        font-family: "Font Awesome 5 Free";
+                        font-weight: 900;
+                        content: "\f00c";
+                        margin-top: 3px;
+                        left: 0;    margin-left: 10px;
+                        color: $pink;   
+                    }
+                }
             }
         }
 
