@@ -352,9 +352,10 @@ body
 
                 .hd, .tools
                 {
-                    @extend #LEFT;
+                    @extend #LEFT, #RELATIVE;
                     width: $full-width;
                     padding: 0 25px;
+                    z-index: 1;
                 }
 
                 .hd
@@ -459,9 +460,16 @@ body
 
                 .main-msg
                 {
-                    @extend #OVERFLOW;
+                    @extend #ABSOLUTE;
                     width: $full-width; height: $full-height;
-                    padding: 0 25px 50px;
+                    padding: 115px 0 50px;
+
+                    .ct-msg
+                    {
+                        @include default;
+                        @extend #OVERFLOW;
+                        padding: 0 25px;
+                    }
 
                     .date-msg
                     {
@@ -478,19 +486,30 @@ body
                     .msg-info
                     {
                         @extend #LEFT, #NO-PADDING, #NO-MARGIN;
-                        width: $full-width; 
+                        width: $full-width;
                         margin: 5px 0;
 
                         .box-msg
                         {
+                            @extend #RELATIVE;
                             border-radius: 15px;
                             padding: 10px 20px;
                             min-width: 25%; max-width: 80%;
+                            padding-right: 60px;
     
                             p
                             {
                                 font-size: 12px;
                                 color: $dark-concrete;
+                            }
+
+                            .time-msg
+                            {
+                                @extend #ABSOLUTE;
+                                font-weight: bold;  font-size: 10px;
+                                color: $purple;
+                                right: 0;   top: 50%;
+                                margin-top: -8px;   margin-right: 20px;
                             }
                         }
 

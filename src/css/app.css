@@ -10367,11 +10367,11 @@ template {
 ----------------------------------------------------------------------- */
 /* Settings
 ----------------------------------------------------------------------- */
-#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg, body #interactions .content .area-msg .main-msg .date-msg {
+#RELATIVE, body #interactions .left-sb .sidebar, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
+#ABSOLUTE, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action {
   position: absolute;
 }
 
@@ -10409,13 +10409,13 @@ template {
 
 #NO-MARGIN, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .left-sb .sidebar li.cont .row, body #interactions .content .row, body #interactions .content .area-msg .hd h5.contact-data span:last-child, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   margin: 0;
 }
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   padding: 0;
 }
 
@@ -10479,7 +10479,7 @@ template {
   border-radius: 50%;
 }
 
-#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content, body #interactions .content .area-msg .main-msg {
+#OVERFLOW, body #interactions .left-sb .sidebar ul, body #interactions .left-sb .sidebar .tab-content, body #interactions .content .area-msg .main-msg .ct-msg {
   overflow: auto;
 }
 
@@ -10807,6 +10807,7 @@ body #interactions .content .col-area {
 body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools {
   width: 100%;
   padding: 0 25px;
+  z-index: 1;
 }
 
 body #interactions .content .area-msg .hd {
@@ -10905,7 +10906,13 @@ body #interactions .content .area-msg .tools .list-info li:last-child {
 body #interactions .content .area-msg .main-msg {
   width: 100%;
   height: 100%;
-  padding: 0 25px 50px;
+  padding: 115px 0 50px;
+}
+
+body #interactions .content .area-msg .main-msg .ct-msg {
+  width: 100%;
+  height: 100%;
+  padding: 0 25px;
 }
 
 body #interactions .content .area-msg .main-msg .date-msg {
@@ -10929,11 +10936,22 @@ body #interactions .content .area-msg .main-msg .msg-info .box-msg {
   padding: 10px 20px;
   min-width: 25%;
   max-width: 80%;
+  padding-right: 60px;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .box-msg p {
   font-size: 12px;
   color: #666666;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg {
+  font-weight: bold;
+  font-size: 10px;
+  color: #515067;
+  right: 0;
+  top: 50%;
+  margin-top: -8px;
+  margin-right: 20px;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .msg-client {
