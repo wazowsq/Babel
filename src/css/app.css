@@ -10395,7 +10395,7 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full {
+#HIDE, body #interactions .search ul.drop-filter, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .area-add-right .info-boxes .drop-filter {
   display: none;
 }
 
@@ -10579,6 +10579,10 @@ body #interactions .search {
   background: #E5E5E5;
   padding: 10px;
   z-index: 3;
+}
+
+body #interactions .search .activeFilter {
+  display: block !important;
 }
 
 body #interactions .search::before {

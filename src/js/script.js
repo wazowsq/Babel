@@ -25,3 +25,15 @@ $("#info-detail8").click(function() { $("#tgl-act8").toggleClass("active-tg"); $
 $("#info-detail9").click(function() { $("#tgl-act9").toggleClass("active-tg"); $(this).toggleClass("dp-active"); });
 //Msg 10
 $("#info-detail10").click(function() { $("#tgl-act10").toggleClass("active-tg"); $(this).toggleClass("dp-active"); });
+
+
+//Script para abrir filtro de pesquisa de contatos
+$("#searchContact").click(function() {
+    $("#filterSearch").toggleClass("activeFilter");
+});
+
+
+//Script para abrir filtro de conversa
+$("#searchMsg").click(function() {
+    $("#filterMsg").toggleClass("activeFilter");
+});

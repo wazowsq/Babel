@@ -72,6 +72,9 @@ body
             padding: 10px;
             z-index: 3;
 
+            .activeFilter
+            { display: block !important; }
+
             &::before
             {
                 @extend #ABSOLUTE;
@@ -103,7 +106,7 @@ body
 
             ul.drop-filter
             {
-                @extend #ABSOLUTE, #NO-PADDING, #NO-MARGIN;
+                @extend #ABSOLUTE, #NO-PADDING, #NO-MARGIN, #HIDE;
                 padding: 5px 0;
                 background: $light-silver;
                 width: 330px;
@@ -1044,6 +1047,7 @@ body
 
                     .drop-filter
                     {
+                        @extend #HIDE;
                         width: 370px;
 
                         .more-filter
