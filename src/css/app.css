@@ -10467,7 +10467,7 @@ template {
   text-align: center;
 }
 
-#POINTER, body #interactions .left-sb .settings li, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
+#POINTER, body #interactions .left-sb .settings li, body #interactions .left-sb .sidebar ul > li, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li {
   cursor: pointer;
 }
 
@@ -10538,6 +10538,10 @@ html, body, #interactions, .content {
 
 body .hide {
   display: none !important;
+}
+
+body .show {
+  display: block !important;
 }
 
 body p, body label, body span, body a, body li {
@@ -10984,18 +10988,15 @@ body #interactions .content .area-msg .hd ul {
 
 body #interactions .content .area-msg .hd ul li {
   margin-left: 25px;
-}
-
-body #interactions .content .area-msg .hd ul li a {
   font-size: 15px;
   color: #515067;
 }
 
-body #interactions .content .area-msg .hd ul li a:hover {
+body #interactions .content .area-msg .hd ul li:hover {
   color: #EB3067;
 }
 
-body #interactions .content .area-msg .hd ul li.active a {
+body #interactions .content .area-msg .hd ul li.active {
   color: #EB3067;
 }
 

@@ -11,6 +11,9 @@ body
     .hide
     { display: none !important; }
 
+    .show
+    { display: block !important; }
+
     p, label, span, a, li
     {
         @if (lightness($silver) < 30) {
@@ -548,19 +551,15 @@ body
 
                         li
                         {
-                            @extend #LEFT;
+                            @extend #LEFT, #POINTER;
                             margin-left: 25px;
+                            font-size: 15px;
+                            color: $purple;
 
-                            a
-                            {
-                                font-size: 15px;
-                                color: $purple;
-
-                                &:hover { color: $pink; }
-                            }
+                            &:hover { color: $pink; }
                         }
 
-                        li.active a { color: $pink; }
+                        li.active { color: $pink; }
                     }
                 }
 

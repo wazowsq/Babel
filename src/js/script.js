@@ -37,3 +37,17 @@ $("#searchContact").click(function() {
 $("#searchMsg").click(function() {
     $("#filterMsg").toggleClass("activeFilter");
 });
+
+
+//Script para habilitar pesquisa
+$("#searchCont").click(function() {
+    $(".area-add-right.contact").addClass("show").removeClass("hide");
+    $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
+    $(this).addClass("active");
+});
+//Script para desabilitar pesquisa
+$("#btnCloseContact").click(function() {
+    $(".area-add-right.contact").addClass("hide").removeClass("show");
+    $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
+    $("#searchCont").removeClass("active");
+});
