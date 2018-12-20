@@ -1200,6 +1200,15 @@ body
                     { background: lighten($light, 10%); }
                 }
             }
+            
+            .contact
+            {
+                .info-boxes .ib-gp
+                {
+                    height: initial;
+                    padding-bottom: 20px;
+                }
+            }
         }
     }
 }
