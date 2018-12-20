@@ -11055,9 +11055,9 @@ body #interactions .content .area-msg .main-msg .date-msg {
   font-weight: bold;
   color: #999999;
   padding: 5px 0;
-  background: #d7d6e0;
+  background: #DEDEDE;
   margin: 20px 0;
-  color: #515067;
+  color: #666666;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info {

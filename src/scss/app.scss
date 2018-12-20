@@ -635,9 +635,9 @@ body
                         font-size: 10px;    font-weight: bold;
                         color: $concrete;
                         padding: 5px 0;
-                        background: lighten($purple, 50%);
+                        background: $dark-silver;
                         margin: 20px 0;
-                        color: $purple;
+                        color: $dark-concrete;
                     }
 
                     .msg-info
