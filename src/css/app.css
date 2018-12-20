@@ -11058,7 +11058,7 @@ body #interactions .content .area-msg .main-msg .msg-info .box-msg {
   padding: 15px 20px;
   min-width: 25%;
   max-width: 80%;
-  padding-right: 60px;
+  padding-right: 65px;
 }
 
 body #interactions .content .area-msg .main-msg .msg-info .box-msg p {
@@ -11179,6 +11179,7 @@ body #interactions .content .area-msg .main-msg .msg-info .msg-client .dp-active
 
 body #interactions .content .area-msg .main-msg .msg-info .msg-client .msg-info .msg-operator {
   max-width: 97%;
+  min-width: 97%;
   border-radius: 0 15px 0 0;
   border-left: solid #EB3067;
   padding-right: 20px;
@@ -11220,6 +11221,18 @@ body #interactions .content .area-msg .main-msg .msg-info .received::before {
 body #interactions .content .area-msg .main-msg .msg-info .visualized::before {
   content: "\f560";
   color: #42CB13;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .picture {
+  padding-bottom: 20px;
+}
+
+body #interactions .content .area-msg .main-msg .msg-info .picture .arquivo img,
+body #interactions .content .area-msg .main-msg .msg-info .picture .arquivo iframe {
+  width: 300px;
+  background: #E5E5E5;
+  margin-bottom: 10px;
+  border-radius: 15px 15px 0 0;
 }
 
 body #interactions .content .area-msg .toolsbar-msg {
