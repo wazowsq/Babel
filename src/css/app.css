@@ -11037,6 +11037,10 @@ body #interactions .content .area-msg .main-msg .ct-msg {
   padding-bottom: 20px;
 }
 
+body #interactions .content .area-msg .main-msg #scroll {
+  overflow: scroll;
+}
+
 body #interactions .content .area-msg .main-msg .date-msg {
   width: 100%;
   font-size: 10px;

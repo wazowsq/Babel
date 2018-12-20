@@ -619,6 +619,9 @@ body
                         padding-bottom: 20px;
                     }
 
+                    #scroll
+                    { overflow:scroll; }
+
                     .date-msg
                     {
                         @extend #CENTER, #RELATIVE, #LEFT;
