@@ -968,7 +968,7 @@ body
 
                     ul.toggle-action
                     {
-                        @extend #ABSOLUTE, #SHOW; 
+                        @extend #ABSOLUTE, #HIDE; 
                         padding: 5px 0;
                         background: $light;
                         min-width: 170px; 
@@ -1005,6 +1005,9 @@ body
                             background: $silver;
                         }
                     }
+
+                    ul.activeX
+                    { @extend #SHOW; }
                 }
             }
 

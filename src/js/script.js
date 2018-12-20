@@ -100,3 +100,9 @@ $("#btnCloseRank").click(function() {
     $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
     $(".toggle-action.active-tg li").removeClass("active");
 });
+
+
+//Script para abrir filtro de conversa
+$("#btnSmall").click(function() {
+    $("#dropAction").toggleClass("activeX");
+});
