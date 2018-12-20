@@ -41,7 +41,8 @@ $("#searchMsg").click(function() {
 
 //Script para habilitar pesquisa
 $("#researchLink").click(function() {
-    $(".area-add-right").addClass("hide");
+    $(".area-add-right").addClass("hide").removeClass("show");
+    $(".nav-icon li").removeClass("active");
     $(".area-add-right.contact").addClass("show").removeClass("hide");
     $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
     $(this).addClass("active");
@@ -56,7 +57,8 @@ $("#btnCloseContact").click(function() {
 
 //Script para habilitar pesquisa
 $("#knowledgeLink").click(function() {
-    $(".area-add-right").addClass("hide");
+    $(".area-add-right").addClass("hide").removeClass("show");
+    $(".nav-icon li").removeClass("active");
     $(".area-add-right.knowledge").addClass("show").removeClass("hide");
     $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
     $(this).addClass("active");
@@ -71,7 +73,8 @@ $("#btnCloseKnowledge").click(function() {
 
 //Script para habilitar pesquisa
 $("#searchCont").click(function() {
-    $(".area-add-right").addClass("hide");
+    $(".area-add-right").addClass("hide").removeClass("show");
+    $(".nav-icon li").removeClass("active");
     $(".area-add-right.research").addClass("show").removeClass("hide");
     $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
     $(this).addClass("active");
