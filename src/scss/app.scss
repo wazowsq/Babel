@@ -780,6 +780,21 @@ body
                                     }
                                 }
 
+                                li.detailMsg
+                                {
+                                    @extend #LEFT, #NO-UNDERLINE;
+                                    width: $full-width;
+                                    font-size: 12px;    font-weight: 400;
+                                    color: $purple;
+                                    padding: 5px 15px;
+
+                                    &:hover
+                                    {
+                                        color: $pink;
+                                        background: $silver;
+                                    }
+                                }
+
                                 li.active a
                                 {
                                     color: $pink;

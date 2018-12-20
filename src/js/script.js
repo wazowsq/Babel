@@ -85,3 +85,18 @@ $("#btnCloseResearch").click(function() {
     $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
     $("#searchCont").removeClass("active");
 });
+
+
+//Script para habilitar pesquisa
+$(".detailMsg").click(function() {
+    $(".area-add-right").addClass("hide").removeClass("show");
+    $(".toggle-action.active-tg li").removeClass("active");
+    $(".area-add-right.rank").addClass("show").removeClass("hide");
+    $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
+});
+//Script para desabilitar pesquisa
+$("#btnCloseRank").click(function() {
+    $(".area-add-right.rank").addClass("hide").removeClass("show");
+    $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
+    $(".toggle-action.active-tg li").removeClass("active");
+});
