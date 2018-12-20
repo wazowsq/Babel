@@ -40,7 +40,8 @@ $("#searchMsg").click(function() {
 
 
 //Script para habilitar pesquisa
-$("#searchCont").click(function() {
+$("#researchLink").click(function() {
+    $(".area-add-right").addClass("hide");
     $(".area-add-right.contact").addClass("show").removeClass("hide");
     $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
     $(this).addClass("active");
@@ -48,6 +49,36 @@ $("#searchCont").click(function() {
 //Script para desabilitar pesquisa
 $("#btnCloseContact").click(function() {
     $(".area-add-right.contact").addClass("hide").removeClass("show");
+    $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
+    $("#researchLink").removeClass("active");
+});
+
+
+//Script para habilitar pesquisa
+$("#knowledgeLink").click(function() {
+    $(".area-add-right").addClass("hide");
+    $(".area-add-right.knowledge").addClass("show").removeClass("hide");
+    $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
+    $(this).addClass("active");
+});
+//Script para desabilitar pesquisa
+$("#btnCloseKnowledge").click(function() {
+    $(".area-add-right.knowledge").addClass("hide").removeClass("show");
+    $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
+    $("#knowledgeLink").removeClass("active");
+});
+
+
+//Script para habilitar pesquisa
+$("#searchCont").click(function() {
+    $(".area-add-right").addClass("hide");
+    $(".area-add-right.research").addClass("show").removeClass("hide");
+    $(".col-area.area-msg").addClass("division-3").removeClass("division-2");
+    $(this).addClass("active");
+});
+//Script para desabilitar pesquisa
+$("#btnCloseResearch").click(function() {
+    $(".area-add-right.research").addClass("hide").removeClass("show");
     $(".col-area.area-msg").addClass("division-2").removeClass("division-3");
     $("#searchCont").removeClass("active");
 });
