@@ -10371,7 +10371,7 @@ template {
   position: relative;
 }
 
-#ABSOLUTE, body #interactions .search::before, body #interactions .search ul.drop-filter, body #interactions .search ul.drop-filter li.active a:before, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .hdr, body #interactions .content .area-add-right .hdr .btn-close, body #interactions .content .area-add-right .info-boxes {
+#ABSOLUTE, body #interactions .search::before, body #interactions .search ul.drop-filter, body #interactions .search ul.drop-filter li.active a:before, body #interactions .left-sb, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto, body #interactions .content, body #interactions .content .area-msg .main-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .time-msg, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl-bar, body #interactions .content .area-msg .main-msg .msg-info .box-msg .progress-pl .progress-pl-bar .timer-prgress, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action, body #interactions .content .area-msg .toolsbar-msg ul.icon-action, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .hdr, body #interactions .content .area-add-right .hdr .btn-close, body #interactions .content .area-add-right .info-boxes {
   position: absolute;
 }
 
@@ -10379,7 +10379,7 @@ template {
   position: fixed;
 }
 
-#LEFT, body .pull-left, body #interactions .search, body #interactions .search ul.drop-filter > li, body #interactions .search ul.drop-filter li.list-filter a, body #interactions .search ul.drop-filter li.list-filter label, body #interactions .search ul.drop-filter li.list-filter input, body #interactions .search ul.drop-filter .more-filter, body #interactions .search ul.drop-filter .more-filter li.list-more, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .btn-group-action .select-queue, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li.detailMsg, body #interactions .content .area-msg .main-msg .msg-info .msg-client .msg-info .msg-operator, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp textarea, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle, body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li {
+#LEFT, body .pull-left, body #interactions .search, body #interactions .search ul.drop-filter > li, body #interactions .search ul.drop-filter li.list-filter a, body #interactions .search ul.drop-filter li.list-filter label, body #interactions .search ul.drop-filter li.list-filter input, body #interactions .search ul.drop-filter .more-filter, body #interactions .search ul.drop-filter .more-filter li.list-more, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .txt, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li, body #interactions .content .area-msg .hd, body #interactions .content .area-msg .tools, body #interactions .content .area-msg .hd h5.contact-data, body #interactions .content .area-msg .hd ul li, body #interactions .content .area-msg .tools .btn-group-action, body #interactions .content .area-msg .tools .btn-group-action .select-queue, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .main-msg .msg-info .msg-client, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li.detailMsg, body #interactions .content .area-msg .main-msg .msg-info .msg-client .msg-info .msg-operator, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li.detailMsg, body #interactions .content .area-msg .toolsbar-msg .textbox, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg ul.icon-action li, body #interactions .content .division-4 .tools .btn-group-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a, body #interactions .content .area-add-right .info-boxes .ib-gp, body #interactions .content .area-add-right .info-boxes .ib-gp h4, body #interactions .content .area-add-right .info-boxes .ib-gp textarea, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle, body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li {
   float: left;
 }
 
@@ -10399,7 +10399,7 @@ template {
   display: none;
 }
 
-#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.activeX, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.activeX, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
   display: block;
 }
 
@@ -10415,7 +10415,7 @@ template {
 
 #NO-PADDING, html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, *,
 *:after,
-*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .search ul.drop-filter, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg .textbox button {
+*:before, #interactions, .content, body ul, body .main-home, body #interactions .sb-default, body #interactions .search ul.drop-filter, body #interactions .left-sb .sidebar li.cont .col-sm-12, body #interactions .left-sb .sidebar li.cont .col-sm-11, body #interactions .left-sb .sidebar li.cont .col-sm-10, body #interactions .left-sb .sidebar li.cont .col-sm-9, body #interactions .left-sb .sidebar li.cont .col-sm-8, body #interactions .left-sb .sidebar li.cont .col-sm-7, body #interactions .left-sb .sidebar li.cont .col-sm-6, body #interactions .left-sb .sidebar li.cont .col-sm-5, body #interactions .left-sb .sidebar li.cont .col-sm-4, body #interactions .left-sb .sidebar li.cont .col-sm-3, body #interactions .left-sb .sidebar li.cont .col-sm-2, body #interactions .left-sb .sidebar li.cont .col-sm-1, body #interactions .left-sb .sidebar li.cont .checkbox, body #interactions .content, body #interactions .content .col-area, body #interactions .content .area-msg .main-msg .ct-msg, body #interactions .content .area-msg .main-msg .msg-info, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox button {
   padding: 0;
 }
 
@@ -10439,7 +10439,7 @@ template {
   font-style: italic;
 }
 
-#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -10451,7 +10451,7 @@ template {
   text-decoration: underline;
 }
 
-#NO-UNDERLINE, body #interactions .search ul.drop-filter li.list-filter a, body #interactions .search ul.drop-filter .more-filter li.list-more a, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li.detailMsg, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a {
+#NO-UNDERLINE, body #interactions .search ul.drop-filter li.list-filter a, body #interactions .search ul.drop-filter .more-filter li.list-more a, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li a, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action li.detailMsg, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li a, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li.detailMsg, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action li a {
   text-decoration: none;
 }
 
@@ -10463,7 +10463,7 @@ template {
   text-transform: lowercase;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   text-align: center;
 }
 
@@ -10495,11 +10495,11 @@ template {
   letter-spacing: 2px;
 }
 
-#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
+#CENTER, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul > li .circle, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .teto h3.title, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li, body #interactions .content .area-msg .main-msg .date-msg, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-add-right .hdr p, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact li .box .circle {
   text-align: center;
 }
 
-#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -11278,11 +11278,73 @@ body #interactions .content .area-msg .toolsbar-msg {
   z-index: 2;
 }
 
+body #interactions .content .area-msg .toolsbar-msg button.btn-which {
+  width: 40px;
+  height: 50px;
+  margin: 0;
+  line-height: 50px;
+  color: #213847;
+  background: #E5E5E5;
+  border-radius: 0;
+  border-top: solid 1px #d8d8d8;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action {
+  text-align: left;
+  padding: 5px 0;
+  background: #FBFBFB;
+  width: 170px;
+  z-index: 2;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 5px;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 50px;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li {
+  width: 100%;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li a {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  color: #515067;
+  padding: 5px 15px;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li a:hover {
+  color: #EB3067;
+  background: #EEEEEE;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li.detailMsg {
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  color: #515067;
+  padding: 5px 15px;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li.detailMsg:hover {
+  color: #EB3067;
+  background: #EEEEEE;
+}
+
+body #interactions .content .area-msg .toolsbar-msg ul.toggle-action li.active a {
+  color: #EB3067;
+  background: #EEEEEE;
+}
+
 body #interactions .content .area-msg .toolsbar-msg .textbox {
   width: 100%;
   height: 100%;
   background: #EEEEEE;
   padding-right: 240px;
+  padding-left: 40px;
 }
 
 body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg {
@@ -11292,6 +11354,7 @@ body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-m
   font-size: 12px;
   color: #999999;
   background: transparent;
+  border-left: solid 1px #DEDEDE;
 }
 
 body #interactions .content .area-msg .toolsbar-msg .textbox button {
