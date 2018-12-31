@@ -542,6 +542,19 @@ body
                             &:last-child
                             { @extend #NO-MARGIN; }
                         }
+
+                        .new-contact
+                        {
+                            @extend #LEFT, #CENTER, #NO-MARGIN, #POINTER;
+                            height: 30px;   width: 30px;
+                            background: $purple;
+                            border-radius: 50%;
+                            line-height: 30px;
+                            font-size: 12px;    font-weight: 100;
+                            margin-right: 10px;
+                            color: $light;
+                            margin-top: 16px;
+                        }
                     }
 
                     ul
