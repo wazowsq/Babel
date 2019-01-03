@@ -267,9 +267,7 @@ body
                     li.newmsg
                     {
                         .select-all
-                        {
-                            @extend #RIGHT;
-                        }
+                        { @extend #RIGHT; }
                     }
                 }
 
@@ -423,6 +421,33 @@ body
                         }
                     }
                 }
+
+                ul.add-partaker-group
+                {
+                    @extend #NO-BORDER;
+                    height: $full-height;
+                    background: $silver;
+                    padding: 20px 0;
+
+                    li.lyrics-alpha
+                    {
+                        color: $pink;
+                        font-weight: 400;
+                        padding: 0 35px;
+                    }
+
+                    li.cont
+                    {
+                        .col-sm-9
+                        { padding-top: 10px; }
+                    }
+                }
+
+                ul.remove-partaker-group
+                { @extend #HIDE; }
+
+                ul#add-group
+                { @extend #SHOW; }
             }
         }
 

@@ -10395,11 +10395,11 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body #interactions .search ul.drop-filter, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .info-boxes .drop-filter {
+#HIDE, body #interactions .search ul.drop-filter, body #interactions .left-sb .settings, body #interactions .left-sb .sidebar ul.remove-partaker-group, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .info-boxes .drop-filter {
   display: none;
 }
 
-#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.activeX, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
+#SHOW, body #interactions .left-sb .sidebar ul > li .notif, body #interactions .left-sb .sidebar .tab-content, body #interactions .left-sb .sidebar ul#add-group, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .content .area-msg .tools .list-info li label, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.active-tg, body #interactions .content .area-msg .toolsbar-msg ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .division-4 .tools .btn-group-action ul.activeX, body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-contact p.txt span {
   display: block;
 }
 
@@ -10439,7 +10439,7 @@ template {
   font-style: italic;
 }
 
-#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .msg-operator .info-operador p:first-child, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .left-sb .sidebar ul.add-partaker-group, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .msg-operator .info-operador p:first-child, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -10499,7 +10499,7 @@ template {
   text-align: center;
 }
 
-#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .msg-operator .info-operador p:first-child, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
+#NO-BORDER, body #interactions .search ul.drop-filter li.list-filter input.int, body #interactions .left-sb .sidebar ul.add-partaker-group, body #interactions .teto ul.nav.nav-tabs li, body #interactions .teto ul.nav.nav-tabs li a, body #interactions .teto ul.nav.nav-tabs li.active, body #interactions .content .btn, body #interactions .content .area-msg .main-msg .msg-info .box-msg .drop-action, body #interactions .content .area-msg .main-msg .msg-info .msg-operator .info-operador p:first-child, body #interactions .content .area-msg .toolsbar-msg button.btn-which, body #interactions .content .area-msg .toolsbar-msg .textbox textarea.send-new-msg, body #interactions .content .area-msg .toolsbar-msg .textbox button, body #interactions .content .division-4 .tools .btn-group-action .btn-small, body #interactions .content .area-add-right .hdr .btn-close {
   border: none;
 }
 
@@ -10877,6 +10877,22 @@ body #interactions .left-sb .sidebar .tab-content .checkbox label {
   color: #515067;
   font-size: 12px;
   font-weight: 400;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group {
+  height: 100%;
+  background: #EEEEEE;
+  padding: 20px 0;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group li.lyrics-alpha {
+  color: #EB3067;
+  font-weight: 400;
+  padding: 0 35px;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group li.cont .col-sm-9 {
+  padding-top: 10px;
 }
 
 body #interactions .teto {
