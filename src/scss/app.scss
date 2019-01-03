@@ -427,7 +427,7 @@ body
                     @extend #NO-BORDER;
                     height: $full-height;
                     background: $silver;
-                    padding: 20px 0;
+                    padding-top: 20px;
 
                     li.lyrics-alpha
                     {
@@ -440,6 +440,26 @@ body
                     {
                         .col-sm-9
                         { padding-top: 10px; }
+                    }
+
+                    .box-next
+                    {
+                        background: $navy-silver;
+                        margin-top: 10px;
+
+                        .full-x
+                        {
+                            width: $full-width;
+                            margin: 5px 0;
+                            font-size: 12px;
+                            padding: 10px;
+                        }
+
+                        .btn-pink
+                        {
+                            background: $pink;
+                            color: $light;
+                        }
                     }
                 }
 

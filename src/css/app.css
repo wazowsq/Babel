@@ -10882,7 +10882,7 @@ body #interactions .left-sb .sidebar .tab-content .checkbox label {
 body #interactions .left-sb .sidebar ul.add-partaker-group {
   height: 100%;
   background: #EEEEEE;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 
 body #interactions .left-sb .sidebar ul.add-partaker-group li.lyrics-alpha {
@@ -10893,6 +10893,23 @@ body #interactions .left-sb .sidebar ul.add-partaker-group li.lyrics-alpha {
 
 body #interactions .left-sb .sidebar ul.add-partaker-group li.cont .col-sm-9 {
   padding-top: 10px;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group .box-next {
+  background: #E5E5E5;
+  margin-top: 10px;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group .box-next .full-x {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 12px;
+  padding: 10px;
+}
+
+body #interactions .left-sb .sidebar ul.add-partaker-group .box-next .btn-pink {
+  background: #EB3067;
+  color: #FBFBFB;
 }
 
 body #interactions .teto {
