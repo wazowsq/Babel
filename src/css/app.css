@@ -10395,7 +10395,7 @@ template {
   margin: 0 auto;
 }
 
-#HIDE, body #interactions .search ul.drop-filter, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .info-boxes .drop-filter {
+#HIDE, body #interactions .search ul.drop-filter, body #interactions .left-sb .settings, body #interactions .content .area-msg .tools .btn-group-action .btn-small, body #interactions .content .area-msg .tools .btn-group-action .toggle-action, body #interactions .content .area-msg .main-msg .msg-info .msg-client ul.toggle-action, body #interactions .content .division-4 .tools .btn-group-action .btn-full, body #interactions .content .division-4 .tools .btn-group-action ul.toggle-action, body #interactions .content .area-add-right .info-boxes .drop-filter, body .modal-group {
   display: none;
 }
 
@@ -11657,6 +11657,14 @@ body #interactions .content .area-add-right .info-boxes .ib-gp .list-group-conta
   line-height: 40px;
 }
 
+body #interactions .content .area-add-right .info-boxes .ib-gp .name-group .box span.circle {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
 body #interactions .content .area-add-right .info-boxes .ib-gp .info-search li {
   width: 100%;
 }
@@ -11682,6 +11690,13 @@ body #interactions .content .area-add-right .info-boxes .ib-gp:nth-child(odd) {
 
 body #interactions .content .area-add-right .info-boxes .ib-gp:nth-child(even) {
   background: white;
+}
+
+body #interactions .content .area-add-right .info-boxes .full-name {
+  width: 100%;
+  font-size: 12px;
+  padding: 8px;
+  height: 30px;
 }
 
 body #interactions .content .contact .info-boxes .ib-gp {

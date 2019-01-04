@@ -1333,6 +1333,19 @@ body
                             }
                         }
 
+                        .name-group
+                        {
+                            .box
+                            {
+                                span.circle
+                                {
+                                    height: 50px;   width: 50px;
+                                    line-height: 50px;
+                                    font-size: 14px;    font-weight: 100;
+                                }
+                            }
+                        }
+
                         .info-search
                         {
                             li
@@ -1367,6 +1380,14 @@ body
                     { background: $navy-silver; }
                     .ib-gp:nth-child(even)
                     { background: lighten($light, 10%); }
+
+                    .full-name
+                    {
+                        width: $full-width;
+                        font-size: 12px;
+                        padding: 8px;
+                        height: 30px;
+                    }
                 }
             }
             
@@ -1383,6 +1404,7 @@ body
 
     .modal-group
     {
+        @extend #HIDE;
         @include default;
         @extend #ABSOLUTE;
         background: rgba(0,0,0,0.8);
