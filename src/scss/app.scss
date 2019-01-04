@@ -4,6 +4,9 @@ html, body, #interactions, .content
 {
     @include default;
     @extend #HIDDEN;
+
+    .no-padding
+    { @extend #NO-PADDING; }
 }
 
 body
@@ -421,53 +424,6 @@ body
                         }
                     }
                 }
-
-                ul.add-partaker-group
-                {
-                    @extend #NO-BORDER;
-                    height: $full-height;
-                    background: $silver;
-                    padding-top: 20px;
-
-                    li.lyrics-alpha
-                    {
-                        color: $pink;
-                        font-weight: 400;
-                        padding: 0 35px;
-                    }
-
-                    li.cont
-                    {
-                        .col-sm-9
-                        { padding-top: 10px; }
-                    }
-
-                    .box-next
-                    {
-                        background: $navy-silver;
-                        margin-top: 10px;
-
-                        .full-x
-                        {
-                            width: $full-width;
-                            margin: 5px 0;
-                            font-size: 12px;
-                            padding: 10px;
-                        }
-
-                        .btn-pink
-                        {
-                            background: $pink;
-                            color: $light;
-                        }
-                    }
-                }
-
-                ul.remove-partaker-group
-                { @extend #HIDE; }
-
-                ul#add-group
-                { @extend #SHOW; }
             }
         }
 
@@ -1421,6 +1377,59 @@ body
                     height: initial;
                     padding-bottom: 20px;
                 }
+            }
+        }
+    }
+
+    .modal-group
+    {
+        @include default;
+        @extend #ABSOLUTE;
+        background: rgba(0,0,0,0.8);
+        z-index: 5;
+
+        .modal-wrapper
+        {
+            @extend #ABSOLUTE;
+            width: 500px;   height: 340px;
+            left: 50%;  margin-left: -250px;
+            top: 50%;   margin-top: -170px;
+            background: $light;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+            padding: 30px 40px;
+
+            h4 { font-weight: bold; }
+
+            button.btn-close
+            { @extend #RIGHT, #NO-PADDING; }
+
+            .modal-main
+            {
+                padding: 25px 0 0;
+                margin-top: 10px;
+
+                .select-fila, .txt-fila, .btn-f
+                {
+                    width: $full-width;
+                    padding: 5px;
+                }
+
+                .btn-f
+                {
+                    background: $pink;
+                    color: $light;
+                }
+            }
+
+            .md-xp
+            { border-top: solid 1px $black-silver; }
+
+            p
+            {
+                color: $concrete;
+                font-weight: 400;
             }
         }
     }
